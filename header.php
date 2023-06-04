@@ -40,7 +40,7 @@
             <div class="row gx-0">
                 <div class="col-lg-3 bg-dark d-none d-lg-block">
                     <a href="index.php" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                       <div><img src="IMG/samfxt logo2.PNG"> <p class="text-white logo-text">SAM FOREIGN EXCHANGE AND TRAVELS SERVICES PVT. LTD.</p></div>
+                       <div><img src="img/samfxt logo2.png"> <p class="text-white logo-text">SAM FOREIGN EXCHANGE AND TRAVELS SERVICES PVT. LTD.</p></div>
                     </a>
                 </div>
                 <div class="col-lg-9">
