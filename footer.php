@@ -24,7 +24,7 @@
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-4">
                         <div>
-                            <a href="index.php"><img src="img/samfxt logo2.PNG"> <p class="text-white logo-text"></p><h1 class="text-primary text-uppercase mb-4"></h1></a>
+                            <a href="index.php"><img src="img/samfxt logo2.png"> <p class="text-white logo-text"></p><h1 class="text-primary text-uppercase mb-4"></h1></a>
                             <p class="text-white mb-0">
 								SAM FXT – book your tickets, hotels and tours from us. we give you all type of pakages: budget friendly or luxurious tours according to your choice 
 							</p>

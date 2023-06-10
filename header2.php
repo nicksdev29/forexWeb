@@ -47,7 +47,7 @@
             <div class="row gx-0">
                 <div class="col-lg-3 bg-dark d-none d-lg-block">
                     <a href="index.php" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                       <div><img src="IMG/samfxt logo2.PNG"> <p class="text-white logo-text">SAM FOREIGN EXCHANGE AND TRAVELS SERVICES PVT. LTD.</p></div>
+                       <div><img src="img/samfxt logo2.png"> <p class="text-white logo-text">SAM FOREIGN EXCHANGE AND TRAVELS SERVICES PVT. LTD.</p></div>
                     </a>
                 </div>
                 <div class="col-lg-9">
@@ -75,10 +75,9 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
-                        <marquee class="nav-item nav-link">Competitive rate for popular currenciesw hen you buy or sell.
-Our spreads are low , no commission and no hidden charges.
-Best rate for Corporate Sector & group tours.</marquee>
-                                <!--<div class="nav-item dropdown">
+                            <a href="Home.php" class="nav-item nav-link">Home</a>
+                        <div class="nav-item dropdown">
+                             
                                     <a href="about.php" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About us</a>
                                     <div class="dropdown-menu rounded-0 m-0">
                                         <a href="booking.php" class="dropdown-item">Mission</a>
@@ -100,7 +99,7 @@ Best rate for Corporate Sector & group tours.</marquee>
                                 <a href="forex.php" class="nav-item nav-link">forex</a>
                                 
                                 <div class="nav-item dropdown">
-                                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">LIST</a>
+                                    <!-----------------------<a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">LIST</a>
                                     <div class="dropdown-menu rounded-0 m-0">
                                         <a href="booking.php" class="dropdown-item">Directors</a>
                                         <a href="team.php" class="dropdown-item">Documents</a>
@@ -111,15 +110,27 @@ Best rate for Corporate Sector & group tours.</marquee>
                                         <a href="testimonial.php" class="dropdown-item">Awards & Recognition</a>
                                         <a href="testimonial.php" class="dropdown-item">Feedback</a>
                                         <a href="testimonial.php" class="dropdown-item">Blogs</a>                               
-                                   </div>
+                                   </div>----------------->
                                 </div>
                                 <a href="contact.php" class="nav-item nav-link">Contact Us</a>
-                                <a href="login.php" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Login | Registration<i class="fa fa-arrow-right ms-3"></i></a>-->
+                                <a href="login.php" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block" style="width: 439px;">Login | Registration<i class="fa fa-arrow-right ms-3"></i></a>
+                    </div>
+
+
+
+                       </nav>         
                         </div>
-                    </nav>
-                </div>
+                        
             </div>
         </div>
+        <div class="col-lg-12 navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
+                        
+                   <marquee class="nav-item nav-link m-0 text-primary text-uppercase">Competitive rate for popular currenciesw hen you buy or sell.
+Our spreads are low , no commission and no hidden charges.
+Best rate for Corporate Sector & group tours.</marquee>
+
+
+                </div>
         <script>
             var getTokyoTime = function() {
                 document.getElementById("tokyoTime").innerHTML = new Date() .toLocaleString("en-US",{timeZone:'Asia/Tokyo',timeStyle:'medium', hourCycle:'h24'});
