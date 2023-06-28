@@ -11,7 +11,7 @@
                         <ol class="breadcrumb justify-content-center text-uppercase">
                             <li class="breadcrumb-item"><a href="#">Home</a></li>
                             <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Booking</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Plan your travel with us</li>
                         </ol>
                     </nav>
                 </div>

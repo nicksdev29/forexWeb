@@ -130,8 +130,8 @@
             <div class="container col-md-12">
                 <div class="row g-5 align-items-center">
                     <div class="col-lg-4">
-                        <h6 class="section-title text-start text-primary text-uppercase">MISSION & VISHION</h6>
-                        <h1 class="mb-4">OUR <span class="text-primary text-uppercase">MISSION & VISHION</span></h1>
+                        <h6 class="section-title text-start text-primary text-uppercase">MISSION & VISION</h6>
+                        <h1 class="mb-4">OUR <span class="text-primary text-uppercase">MISSION & VISION</span></h1>
                         <p class="mb-4">Our Mission is to give the best professional service to all our clients</p>
                         <p class="mb-4">Our vision is to go global in the future.</p></div>
                        <!--- <div class="row g-3 pb-4">

@@ -34,7 +34,7 @@
                         <h6 class="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
                         <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>146/48 , 3RD MAIN , 6TH BLOCK , 
                                                &nbsp; JAYANAGAR , BANGALORE</p>
-                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8925316112</p> 
+                        <!---<p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8925316112</p>------> 
                         <p><i class="fa fa-mobile-alt me-3"></i>+91 7439841376</p>
                         <p><i class="fa fa-mobile-alt me-3"></i>+91 9007917596</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>INFO@SAMFXT.IN</p>
