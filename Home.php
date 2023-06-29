@@ -389,7 +389,7 @@ Europe and African Safari etc.</p>
                                     <i class="fa fa-hotel fa-2x text-primary"></i>
                                 </div>
                             </div>
-                            <h5 class="mb-3">Rooms & Appartment</h5>
+                            <h5 class="mb-3">Foriegn exchange</h5>
                             <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </a>
                     </div>
@@ -400,7 +400,7 @@ Europe and African Safari etc.</p>
                                     <i class="fa fa-utensils fa-2x text-primary"></i>
                                 </div>
                             </div>
-                            <h5 class="mb-3">Food & Restaurant</h5>
+                            <h5 class="mb-3">Flight (Domestic and International)</h5>
                             <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </a>
                     </div>
@@ -411,7 +411,7 @@ Europe and African Safari etc.</p>
                                     <i class="fa fa-spa fa-2x text-primary"></i>
                                 </div>
                             </div>
-                            <h5 class="mb-3">Spa & Fitness</h5>
+                            <h5 class="mb-3">Train Booking</h5>
                             <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </a>
                     </div>
@@ -422,7 +422,7 @@ Europe and African Safari etc.</p>
                                     <i class="fa fa-swimmer fa-2x text-primary"></i>
                                 </div>
                             </div>
-                            <h5 class="mb-3">Sports & Gaming</h5>
+                            <h5 class="mb-3">Rooms and appartment</h5>
                             <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </a>
                     </div>
@@ -433,7 +433,7 @@ Europe and African Safari etc.</p>
                                     <i class="fa fa-glass-cheers fa-2x text-primary"></i>
                                 </div>
                             </div>
-                            <h5 class="mb-3">Event & Party</h5>
+                            <h5 class="mb-3">Bus & car Rentals</h5>
                             <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </a>
                     </div>
@@ -444,7 +444,7 @@ Europe and African Safari etc.</p>
                                     <i class="fa fa-dumbbell fa-2x text-primary"></i>
                                 </div>
                             </div>
-                            <h5 class="mb-3">GYM & Yoga</h5>
+                            <h5 class="mb-3">Customized Tours</h5>
                             <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
                         </a>
                     </div>
