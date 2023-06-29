@@ -78,7 +78,7 @@
                         <a class="service-item rounded" href="">
                             <div class="service-icon bg-transparent border rounded p-1">
                                 <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
-                                <i class="fa fa-money fa-2x" aria-hidden="true fa-2x"></i>
+                                <i class="fa fa-money fa-2x" aria-hidden="true"></i>
                                 </div>
                             </div>
                             <h5 class="mb-3">Foriegn exchange</h5>
