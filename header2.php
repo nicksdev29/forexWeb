@@ -79,10 +79,10 @@
                         <div class="nav-item dropdown">
                              
                                     <a href="about.php" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About us</a>
-                                    <div class="dropdown-menu rounded-0 m-0">
+                                    <!---<div class="dropdown-menu rounded-0 m-0">
                                         <a href="booking.php" class="dropdown-item">Mission</a>
                                         <a href="team.php" class="dropdown-item">Vision</a>
-                                    </div>
+                                    </div>---->
                             </div>
                                 <a href="service.php" class="nav-item nav-link">Services</a>
                                 <div class="nav-item dropdown">
