@@ -51,7 +51,7 @@
 
   <!-- Register buttons -->
   <div class="text-center">
-    <p>Not a member? <a href="register.php">Register</a></p>
+    <p>Not a member? <a href="Registration.php">Register</a></p>
     <p>or Login with:</p>
     <button type="button" class="btn btn-link btn-floating mx-1">
       <i class="fab fa-facebook-f"></i>
