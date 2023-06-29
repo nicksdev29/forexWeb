@@ -78,7 +78,7 @@
                             <a href="Home.php" class="nav-item nav-link">Home</a>
                         <div class="nav-item dropdown">
                              
-                                    <a href="about.php" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About us</a>
+                                    <a href="about.php" class="nav-link">About us</a>
                                     <!---<div class="dropdown-menu rounded-0 m-0">
                                         <a href="booking.php" class="dropdown-item">Mission</a>
                                         <a href="team.php" class="dropdown-item">Vision</a>
