@@ -70,8 +70,8 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title text-center text-primary text-uppercase">flight Booking</h6>
-                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">best flight</span></h1>
+                    <h6 class="section-title text-center text-primary text-uppercase">flyight Booking</h6>
+                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">best flyight</span></h1>
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-6">
@@ -95,19 +95,14 @@
                             <form>
                             <div class="form-group border-bottom d-flex align-items-center justify-content-between flex-wrap">
                 <label class="option my-sm-0 my-2">
-                    <input type="radio" name="radio" checked>Round Trip
+                    <input type="radio" name="radio" checked>& nbsp; Round Trip
                     <span class="checkmark"></span>
                 </label>
                 <label class="option my-sm-0 my-2">
-                    <input type="radio" name="radio">One Way
+                    <input type="radio" name="radio" >& nbsp; One Way 
                     <span class="checkmark"></span>
                 </label>
-                <div class="d-flex align-items-center my-sm-0 my-2">
-                    <a href="#" class="text-decoration-none">
-                        Multi-city/Stopovers <span class="fas fa-angle-right ps-2 text-primary"></span>
-                    </a>
-                </div>
-            </div>
+                    </div>
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
@@ -138,10 +133,10 @@
                     <input type="date" required placeholder="Depart Date" class="form-control">
                     <div class="label" id="depart"></div>
                 </div>
-                <div class="d-flex align-items-center flex-fill ms-sm-1 my-sm-0 my-4 border-bottom position-relative">
+                <!---<div class="d-flex align-items-center flex-fill ms-sm-1 my-sm-0 my-4 border-bottom position-relative">
                     <input type="date" required placeholder="Return Date" class="form-control">
                     <div class="label" id="return"></div>
-                </div>
+                </div>------>
             </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
@@ -166,11 +161,11 @@
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <select class="form-select" id="select3">
-                                              <option value="1">Room 1</option>
-                                              <option value="2">Room 2</option>
-                                              <option value="3">Room 3</option>
+                                              <option value="1">Class 1</option>
+                                              <option value="2">Class 2</option>
+                                              <option value="3">Class 3</option>
                                             </select>
-                                            <label for="select3">Select A Room</label>
+                                            <label for="select3">Select A Class</label>
                                           </div>
                                     </div>
                                     <div class="col-12">
