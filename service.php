@@ -116,8 +116,9 @@
                         <h6>   Our Travel experts will guide your tour packages within India or abroad when you make a plan for a leisure holidays. So contact us and according to your choice we will make your trip comfortable and happy.</h6>
                     </div>
                     </div>
-                    
+                    <br>
                 </div>
+                <br>
 
                 
                 <div class="row g-4">
