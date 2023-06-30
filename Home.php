@@ -377,7 +377,7 @@ Europe and African Safari etc.</p>
         <!-- Service Start -->
         
 
-        <div class="container-xxl py-5">
+        <!--------<div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title text-center text-primary text-uppercase">Our Services</h6>
@@ -426,7 +426,7 @@ Europe and African Safari etc.</p>
                     </div>
                     <br>
                 </div>
-                <br>
+                <br>---------------->
 
                 
                 <div class="row g-4">
