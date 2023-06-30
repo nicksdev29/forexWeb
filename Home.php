@@ -463,7 +463,7 @@ Europe and African Safari etc.</p>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                         <p>I traveled to Simla Kulu Manali with Sam FX and Travel and it was an wonderful trip. My Hotels were excellent , car came on time and chauffeur was very friendly. I recommended my friends to travel with SAM fxt next time.</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
                             <div class="ps-3">
                                 <h6 class="fw-bold mb-1">Shyamal Singh</h6>
                                 <small>Samfxt user</small>
@@ -474,7 +474,7 @@ Europe and African Safari etc.</p>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                         <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
                         <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-1.jpg" style="width: 45px; height: 45px;">
                             <div class="ps-3">
                                 <h6 class="fw-bold mb-1">Client Name</h6>
                                 <small>Profession</small>
