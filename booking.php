@@ -171,7 +171,7 @@
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
-                                            <label for="message">Special Request</label>
+                                            <label for="message">Special Request (Destination)</label>
                                         </div>
                                     </div>
                                     <div class="col-12">

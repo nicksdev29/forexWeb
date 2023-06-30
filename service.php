@@ -67,6 +67,13 @@
 
 
         <!-- Service Start -->
+        <h6 class="section-title text-center text-primary text-uppercase">Foreign Exchange</h6>
+        <div class="row g-4">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1> We are dealing with all major currencies of the world including Miscellaneous currencies like Thai Bhat, Philippine Peso, Indonesian Rupiya etc. We are offering you very competitive rates while buying and selling currencies.</h1>
+                    </div>
+                    </div>
+
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
