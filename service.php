@@ -75,9 +75,9 @@
                     <h6 class="section-title text-center text-primary text-uppercase">Our Services</h6>
                     <h1 class="mb-5">Explore Our <span class="text-primary text-uppercase">Services</span></h1>
                     
-                    <h6 class="section-title text-center text-uppercase">Foreign Exchange</h6>
+                    <h6 class="text-primary text-uppercase">Foreign Exchange</h6>
                       <div class="row g-4">
-                    <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
                         <h6> We are dealing with all major currencies of the world including Miscellaneous currencies like Thai Bhat, Philippine Peso, Indonesian Rupiya etc. We are offering you very competitive rates while buying and selling currencies.</h6>
                     </div>
                     </div>
