@@ -70,8 +70,8 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title text-center text-primary text-uppercase">flyight Booking</h6>
-                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">best flyight</span></h1>
+                    <h6 class="section-title text-center text-primary text-uppercase">flight Booking</h6>
+                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">best flight</span></h1>
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-6">
@@ -95,11 +95,11 @@
                             <form>
                             <div class="form-group border-bottom d-flex align-items-center justify-content-between flex-wrap">
                 <label class="option my-sm-0 my-2">
-                    <input type="radio" name="radio" checked>& nbsp; Round Trip
+                    <input type="radio" name="radio" checked>&nbsp;&nbsp;&nbsp; Round Trip
                     <span class="checkmark"></span>
                 </label>
                 <label class="option my-sm-0 my-2">
-                    <input type="radio" name="radio" >& nbsp; One Way 
+                    <input type="radio" name="radio" >&nbsp;&nbsp;&nbsp; One Way 
                     <span class="checkmark"></span>
                 </label>
                     </div>
