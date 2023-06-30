@@ -70,8 +70,8 @@
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title text-center text-primary text-uppercase">Room Booking</h6>
-                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">Luxury Room</span></h1>
+                    <h6 class="section-title text-center text-primary text-uppercase">flight Booking</h6>
+                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">best flight</span></h1>
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-6">
@@ -93,6 +93,21 @@
                     <div class="col-lg-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <form>
+                            <div class="form-group border-bottom d-flex align-items-center justify-content-between flex-wrap">
+                <label class="option my-sm-0 my-2">
+                    <input type="radio" name="radio" checked>Round Trip
+                    <span class="checkmark"></span>
+                </label>
+                <label class="option my-sm-0 my-2">
+                    <input type="radio" name="radio">One Way
+                    <span class="checkmark"></span>
+                </label>
+                <div class="d-flex align-items-center my-sm-0 my-2">
+                    <a href="#" class="text-decoration-none">
+                        Multi-city/Stopovers <span class="fas fa-angle-right ps-2 text-primary"></span>
+                    </a>
+                </div>
+            </div>
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
@@ -109,15 +124,25 @@
                                     <div class="col-md-6">
                                         <div class="form-floating date" id="date3" data-target-input="nearest">
                                             <input type="text" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" />
-                                            <label for="checkin">Check In</label>
+                                            <label for="checkin">FLYING FROM</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating date" id="date4" data-target-input="nearest">
                                             <input type="text" class="form-control datetimepicker-input" id="checkout" placeholder="Check Out" data-target="#date4" data-toggle="datetimepicker" />
-                                            <label for="checkout">Check Out</label>
+                                            <label for="checkout">FLYING TO</label>
                                         </div>
                                     </div>
+                                    <div class="form-group d-sm-flex margin">
+                <div class="d-flex align-items-center flex-fill me-sm1 my-sm-0 border-bottom position-relative">
+                    <input type="date" required placeholder="Depart Date" class="form-control">
+                    <div class="label" id="depart"></div>
+                </div>
+                <div class="d-flex align-items-center flex-fill ms-sm-1 my-sm-0 my-4 border-bottom position-relative">
+                    <input type="date" required placeholder="Return Date" class="form-control">
+                    <div class="label" id="return"></div>
+                </div>
+            </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <select class="form-select" id="select1">
