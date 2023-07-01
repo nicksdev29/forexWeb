@@ -438,7 +438,7 @@ Europe and African Safari etc.</p>
                                 </div>
                             </div>
                             <h5 class="mb-3">Foriegn exchange</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-0">We are dealing with all major currencies of the world including Miscellaneous currencies like Thai Bhat, Philippine Peso, Indonesian Rupiya etc. We are offering you very competitive rates while buying and selling currencies.</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -450,7 +450,7 @@ Europe and African Safari etc.</p>
                                 </div>
                             </div>
                             <h5 class="mb-3">Flight (Domestic and International)</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-0">We will book your flight tickets for your Travel anywhere both Domestic and International.</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -461,7 +461,7 @@ Europe and African Safari etc.</p>
                                 </div>
                             </div>
                             <h5 class="mb-3">Train Booking</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-0">When you are planning to travel by train pls think of us . We will book your tickets according to your train choice. We book Hill Trains (Ooty, Darjeeling etc) Luxury Train Palace on wheels, Deccan Queen, Rajdhani, Satabdi etc,</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
@@ -472,7 +472,7 @@ Europe and African Safari etc.</p>
                                 </div>
                             </div>
                             <h5 class="mb-3">Rooms and appartment</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-0">We will take care of your hotels when you are planning to go for an official trip or leisure holidays . We book all star hotels and non star hotels.</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -483,7 +483,7 @@ Europe and African Safari etc.</p>
                                 </div>
                             </div>
                             <h5 class="mb-3">Bus & car Rentals</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-0">For group Travels we book luxury buses and cars all over India . Therefore contact us for any kind of bookings.</p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
@@ -494,7 +494,7 @@ Europe and African Safari etc.</p>
                                 </div>
                             </div>
                             <h5 class="mb-3">Customized Tours</h5>
-                            <p class="text-body mb-0">Erat ipsum justo amet duo et elitr dolor, est duo duo eos lorem sed diam stet diam sed stet lorem.</p>
+                            <p class="text-body mb-0">Our Travel experts will guide your tour packages within India or abroad when you make a plan for a leisure holidays. So contact us and according to your choice we will make your trip comfortable and happy.</p>
                         </a>
                     </div>
                 </div>
