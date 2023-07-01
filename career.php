@@ -117,6 +117,7 @@
                                             <label for="name">Surname</label>
                                         </div>
                                     </div>
+                                    </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="email" placeholder="Your Email">
