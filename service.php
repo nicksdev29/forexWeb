@@ -78,42 +78,42 @@
                     <h6 class="text-primary text-uppercase">Foreign Exchange</h6>
                       <div class="row g-4">
                     <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <h6> We are dealing with all major currencies of the world including Miscellaneous currencies like Thai Bhat, Philippine Peso, Indonesian Rupiya etc. We are offering you very competitive rates while buying and selling currencies.</h6>
+                        <h6> We are dealing with all major currencies of the world including <span id="dots">...</span><span id="more">Miscellaneous currencies like Thai Bhat, Philippine Peso, Indonesian Rupiya etc. We are offering you very competitive rates while buying and selling currencies.</span></h6>
                     </div>
                     </div>
                     <br>
                     <h6 class="text-primary text-uppercase">Flights </h6>
                       <div class="row g-4">
                     <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <h6>  We will book your flight tickets for your Travel anywhere both Domestic and International</h6>
+                        <h6>  We will book your flight tickets for your Travel anywhere both <span id="dots">...</span><span id="more"> Domestic and International</span></h6>
                     </div>
                     </div>
                     <br>
                     <h6 class="text-primary text-uppercase">Train Booking </h6>
                       <div class="row g-4">
                     <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <h6>  When you are planning to travel by train pls think of us . We will book your tickets according to your train choice. We book Hill Trains (Ooty, Darjeeling etc) Luxury Train Palace on wheels, Deccan Queen, Rajdhani, Satabdi etc,</h6>
+                        <h6>  When you are planning to travel by train pls think of us . We will <span id="dots">...</span><span id="more"> book your tickets according to your train choice. We book Hill Trains (Ooty, Darjeeling etc) Luxury Train Palace on wheels, Deccan Queen, Rajdhani, Satabdi etc,</span></h6>
                     </div>
                     </div>
                     <br>
                     <h6 class="text-primary text-uppercase">Room & Apartment </h6>
                       <div class="row g-4">
                     <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <h6>  We will take care of your hotels when you are planning to go for an official trip or leisure holidays . We book all star hotels and non star hotels.</h6>
+                        <h6>  We will take care of your hotels when you are planning to go for an <span id="dots">...</span><span id="more">official trip or leisure holidays . We book all star hotels and non star hotels.</span></h6>
                     </div>
                     </div>
                     <br>
                     <h6 class="text-primary text-uppercase">Bus and Car Rentals </h6>
                       <div class="row g-4">
                     <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <h6>  For group Travels we book luxury buses and cars all over India . Therefore contact us for any kind of bookings.</h6>
+                        <h6>  For group Travels we book luxury buses and cars all over India . Therefore  <span id="dots">...</span><span id="more">contact us for any kind of bookings.</span></h6>
                     </div>
                     </div>
                     <br>
                     <h6 class="text-primary text-uppercase">Customized Tours </h6>
                       <div class="row g-4">
                     <div class="col-lg-12 col-md-12 wow fadeInUp" data-wow-delay="0.1s">
-                        <h6>   Our Travel experts will guide your tour packages within India or abroad when you make a plan for a leisure holidays. So contact us and according to your choice we will make your trip comfortable and happy.</h6>
+                        <h6>   Our Travel experts will guide your tour packages within India or  <span id="dots">...</span><span id="more">abroad when you make a plan for a leisure holidays. So contact us and according to your choice we will make your trip comfortable and happy.</span></h6>
                     </div>
                     </div>
                     <br>
