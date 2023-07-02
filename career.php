@@ -109,15 +109,15 @@
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
                                             <label for="name">Your Name</label>
                                         </div>
-                                    </div>
+                                    
                                     <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
+                                            <label for="name">Surname</label>
                                         </div>
                                     </div>
-                                
+                                    </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="email" placeholder="Your Email">
