@@ -95,13 +95,14 @@
                             <form>
                             <div class="form-group border-bottom d-flex align-items-center justify-content-between flex-wrap">
                 <label class="option my-sm-0 my-2">
-                    <input type="radio" name="radio" checked>&nbsp;&nbsp;&nbsp; Round Trip
+                    <input type="radio" name="radio" checked>&nbsp;&nbsp;&nbsp; Male
                     <span class="checkmark"></span>
                 </label>
                 <label class="option my-sm-0 my-2">
-                    <input type="radio" name="radio" >&nbsp;&nbsp;&nbsp; One Way 
+                    <input type="radio" name="radio" >&nbsp;&nbsp;&nbsp; female 
                     <span class="checkmark"></span>
                 </label>
+                <br>
                     </div>
                                 <div class="row g-3">
                                     <div class="col-md-6">
@@ -112,14 +113,20 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="surname" class="form-control" id="surname" placeholder="Your surname">
-                                            <label for="surname">surname</label>
+                                            <input type="Surname" class="form-control" id="Surname" placeholder="Your Surname">
+                                            <label for="surname">Surname</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <!--<div class="col-md-6">
                                         <div class="form-floating date" id="date3" data-target-input="nearest">
                                             <input type="text" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" />
-                                            <label for="checkin">FLYING FROM</label>
+                                            <label for="checkin">Resigned</label>
+                                        </div>
+                                    </div>--->
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="mobile no" class="form-control" id="mobile no" placeholder="Your mobile no">
+                                            <label for="mobile no">mobile no</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
