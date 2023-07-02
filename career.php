@@ -112,8 +112,8 @@
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
+                                            <input type="surname" class="form-control" id="surname" placeholder="Your surname">
+                                            <label for="surname">surname</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -123,9 +123,9 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6">
-                                        <div class="form-floating date" id="date4" data-target-input="nearest">
-                                            <input type="text" class="form-control datetimepicker-input" id="checkout" placeholder="Check Out" data-target="#date4" data-toggle="datetimepicker" />
-                                            <label for="checkout">FLYING TO</label>
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <label for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div class="form-group d-sm-flex margin">
