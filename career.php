@@ -6,12 +6,12 @@
         <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-1.jpg);">
             <div class="container-fluid page-header-inner py-5">
                 <div class="container text-center pb-5">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown">Make your career with us</h1>
+                    <h1 class="display-3 text-white mb-3 animated slideInDown">Plan your travel with us</h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="breadcrumb-item"><a href="Home.php">Home</a></li>
+                            <li class="breadcrumb-item"><a href="#">Home</a></li>
                             <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">career</li>
+                            <li class="breadcrumb-item text-white active" aria-current="page">Booking</li>
                         </ol>
                     </nav>
                 </div>
@@ -20,7 +20,7 @@
         <!-- Page Header End -->
 
 
-        <!------------------------ Booking Start
+        <!-- Booking Start -->
         <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container">
                 <div class="bg-white shadow" style="padding: 35px;">
@@ -63,15 +63,15 @@
                 </div>
             </div>
         </div>
-         Booking End ------------------------------------------------>
+        <!-- Booking End -->
 
 
         <!-- Booking Start -->
         <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="section-title text-center text-primary text-uppercase">make your career with samfxt</h6>
-                    <h1 class="mb-5">Boost <span class="text-primary text-uppercase">your skill</span></h1>
+                    <h6 class="section-title text-center text-primary text-uppercase">flight Booking</h6>
+                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">best flight</span></h1>
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-6">
@@ -93,13 +93,13 @@
                     <div class="col-lg-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <form>
-            <div class="form-group border-bottom d-flex align-items-center justify-content-between flex-wrap">
+                            <div class="form-group border-bottom d-flex align-items-center justify-content-between flex-wrap">
                 <label class="option my-sm-0 my-2">
-                    <input type="radio" name="radio" checked>&nbsp;&nbsp;&nbsp; Employee 
+                    <input type="radio" name="radio" checked>&nbsp;&nbsp;&nbsp; Round Trip
                     <span class="checkmark"></span>
                 </label>
                 <label class="option my-sm-0 my-2">
-                    <input type="radio" name="radio" >&nbsp;&nbsp;&nbsp; Recruiter 
+                    <input type="radio" name="radio" >&nbsp;&nbsp;&nbsp; One Way 
                     <span class="checkmark"></span>
                 </label>
                     </div>
@@ -110,14 +110,6 @@
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
-                                    
-                                    <div class="col-md-6">
-                                        <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Surname</label>
-                                        </div>
-                                    </div>
-                                    </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="email" placeholder="Your Email">
@@ -127,7 +119,7 @@
                                     <div class="col-md-6">
                                         <div class="form-floating date" id="date3" data-target-input="nearest">
                                             <input type="text" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" />
-                                            <label for="checkin">previous e</label>
+                                            <label for="checkin">FLYING FROM</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
