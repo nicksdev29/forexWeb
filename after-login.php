@@ -65,7 +65,7 @@
                             </div>
                     </div>
                     <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
-                        <a href="index.php" class="navbar-brand d-block d-lg-none">
+                        <a href="Home.php" class="navbar-brand d-block d-lg-none">
                         
                         </a>
                         <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
