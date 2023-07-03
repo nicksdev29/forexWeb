@@ -93,7 +93,7 @@
 else
 {
   
-  $_SESSION['error']="ivalid email/password";
+  $_SESSION['error']="Invalid email/password";
 
   
 }
