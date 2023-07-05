@@ -52,7 +52,7 @@
                                 <p class="mb-0">INFO@SAMFXT.IN</p>
                             </div>
                             <div class="h-100 d-inline-flex align-items-center py-2">
-                            <i class="fa fa-phone-square text-primary me-2" aria-hidden="true"></i> 
+                            <i class="fa fa-phone-square text-primary me-2 fa-2x" aria-hidden="true"></i> 
                                 <p class="mb-0">+91 9007917596</p>
                             </div>
                         </div>

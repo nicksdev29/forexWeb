@@ -15,31 +15,31 @@
   <!-- Email input -->
   <div class="form-outline mb-2">
     <label class="form-label" for="form2Example1">User Name</label>
-    <input type="text" id="form2Example1" class="form-control" />
+    <input type="text" name="user_name" id="form2Example1" class="form-control" />
     
   </div>
 
   <div class="form-outline mb-2">
     <label class="form-label" for="form2Example1">Email Address</label>
-    <input type="email" id="form2Example1" class="form-control" />
+    <input type="email" name="email_Address" id="form2Example1" class="form-control" />
     
   </div>
 
   <!-- Password input -->
   <div class="form-outline mb-2">
        <label class="form-label" for="form2Example2">Password</label>
-    <input type="password" id="form2Example2" class="form-control" />
+    <input type="password" name="password" id="form2Example2" class="form-control" />
  
   </div>
 
   <div class="form-outline mb-2">
     <label class="form-label" for="form2Example2">Confirm Password</label>
-    <input type="password" id="form2Example2" class="form-control" />
+    <input type="password" name="confirm_Password" id="form2Example2" class="form-control" />
     
   </div>
   <div class="form-outline mb-2">
     <label class="form-label" for="form2Example2">Mobile Number</label>
-    <input type="number" id="form2Example2" class="form-control" />
+    <input type="number" name="mobile_Number" id="form2Example2" class="form-control" />
     
   </div>
 
@@ -60,19 +60,19 @@
   </div>-->
 
   <!-- Submit button -->
-  <center><button type="button" class="btn btn-primary btn-block mb-4">Register </button></center>
+  <center><button type="button" name="register_button" class="btn btn-primary btn-block mb-4">Register </button></center>
 
   <!-----connect data base-------->
 <?php
-if (isset($_POST['Register button'])){
-$User_name =$_POST['User name'];
-$Email_Address =$_POST['Email Address'];
-$Password =$_POST['Password'];
-$Confirm_Password =$_POST['Confirm Password'];
-$Mobile_Number =$_POST['Mobile Number'];
+if (isset($_POST['register_button'])){
+$User_name =$_POST['user_name'];
+$Email_Address =$_POST['email_Address'];
+$Password =$_POST['password'];
+$Confirm_Password =$_POST['confirm_Password'];
+$Mobile_Number =$_POST['mobile_Number'];
 
 $query="INSERT INTO registration(User name, Email Address, Password, Confirm Password, Mobile_Number) VALUES('$User_name','$Email_Address','$Password','$Confirm_Password','$Mobile_Number')";
-$data=mysql_query($con,$query);
+$data=mysqli_query($con,$query);
 if($data){
   ;?>
   <script type="text/javascript">alert("data Register successfully");
