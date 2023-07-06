@@ -126,7 +126,7 @@
             </div>
         </div>
         <!-- Booking End -->
-<div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 100px;" style="height:99vh; overflow-y:auto;" >
+<div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s" style="padding: 100px;" style="height:600px; overflow-y:auto;" >
             <div class="container">
                 <div class="bg-white shadow">
                     <div class="row g-2">
