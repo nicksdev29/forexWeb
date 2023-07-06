@@ -137,9 +137,9 @@
                                 <div class="date" id="date1" data-target-input="nearest"> 
                                     <h4 class="section-title text-start text-primary text-uppercase mb-4">CURRENCY</h4>
                               
-                              
+                              <div style="height: 600px; overflow-y:auto;">
                                     <p align="center"> 
-                                       <ul class="forex1" style="list-style-type:none; height:600px; overflow-y:auto;">
+                                       <ul class="forex1">
                                           <b><li>NAME OF CURRENCIES </li></b>
                                           <li><b>$</b> USDOLLAR </li>
                                           <li><b>£</b> BRITISH POUND</li>
@@ -294,7 +294,7 @@
                                     </ul></p></div>
 
 
-
+                                </div>
                                  </div>
                                     
                                   
