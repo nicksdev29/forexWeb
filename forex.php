@@ -160,6 +160,9 @@
                                           <li><b>E£</b> EGYPTIAN POUND</li>
                                           <li><b>ر.ع.</b> OMAN RIAL</li>
                                           <li><b>¥</b> CHINESE RMB</li>
+                                          <li><b>฿</b> TBH</li>
+                                          <li><b>Rp</b> Indonesian Rupee</li>
+                                          <li><b>₱</b> Philippine paiso</li>
 
 
                                           
@@ -251,6 +254,10 @@
                                           <li><a href="#" class="buy">BUY</a></li>
                                           <li><a href="#" class="buy">BUY</a></li>
                                           <li><a href="#" class="buy">BUY</a></li>
+                                          <li><a href="#" class="buy">BUY</a></li>
+                                          <li><a href="#" class="buy">BUY</a></li>
+                                          <li><a href="#" class="buy">BUY</a></li>
+                                          <li><a href="#" class="buy">BUY</a></li>
                                           
                                           
                                       
@@ -260,6 +267,10 @@
                                     <p align="center"><ul class="forex1" style="list-style-type:none;"align="center"> <br> <br> <br>
                                           <b><li>SELL</li></b>
                                          
+                                          <li><a href="#" class="buy">SELL</a></li>
+                                          <li><a href="#" class="buy">SELL</a></li>
+                                          <li><a href="#" class="buy">SELL</a></li>
+                                          <li><a href="#" class="buy">SELL</a></li>
                                           <li><a href="#" class="buy">SELL</a></li>
                                           <li><a href="#" class="buy">SELL</a></li>
                                           <li><a href="#" class="buy">SELL</a></li>

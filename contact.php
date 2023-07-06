@@ -95,7 +95,7 @@
                             </div>
                             <div class="col-md-5">
                                 <h6 class="section-title text-start text-primary text-uppercase">Phone</h6>
-                                <p><i class="fa fa-mobile text-primary me-2"></i>+91 7439841376 / +91 9007917596
+                                <p><i class="fa fa-mobile text-primary me-2"></i>+91 7439841376 / +91 9007917596 /+91 9847253888
 </p>
                             </div>
                              <div class="col-md-2">

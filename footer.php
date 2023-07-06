@@ -37,6 +37,7 @@
                         <!---<p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 8925316112</p>------> 
                         <p><i class="fa fa-phone me-3" aria-hidden="true"></i>+91 9007917596</p>
                         <p><i class="fa fa-phone me-3" aria-hidden="true"></i>+91 7439841376</p>
+                        <p><i class="fa fa-phone me-3" aria-hidden="true"></i>+91 9847253888</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>INFO@SAMFXT.IN</p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
