@@ -60,10 +60,11 @@
   </div>-->
 
   <!-- Submit button -->
-  <center><button type="button" name="register_button" class="btn btn-primary btn-block mb-4">Register </button></center>
+  <center><button type="submit" name="register_button" class="btn btn-primary btn-block mb-4">Register </button></center>
 
   <!-----connect data base-------->
 <?php
+
 if (isset($_POST['register_button'])){
 $User_name =$_POST['user_name'];
 $Email_Address =$_POST['email_Address'];
@@ -71,7 +72,7 @@ $Password =$_POST['password'];
 $Confirm_Password =$_POST['confirm_Password'];
 $Mobile_Number =$_POST['mobile_Number'];
 
-$query="INSERT INTO registration(User name, Email Address, Password, Confirm Password, Mobile_Number) VALUES('$User_name','$Email_Address','$Password','$Confirm_Password','$Mobile_Number')";
+$query="INSERT INTO users(user_role, username, email_id, full_name, password, status,mobile) VALUES(2,'$User_name','$Email_Address','$User_name','$Password','ACTIVE','$Mobile_Number')";
 $data=mysqli_query($con,$query);
 if($data){
   ;?>

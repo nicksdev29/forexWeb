@@ -60,7 +60,34 @@
   <!-- Submit button -->
   <center><input type="submit" class="btn btn-primary btn-block mb-4" name="register_btn" value="Save"/></center>
 
+  <!-----connect data base-------->
+<?php
+/*
+if (isset($_POST['register_btn'])){
+$user_name =$_POST['username'];
+$email =$_POST['email'];
+$password =$_POST['password'];
+$con_password =$_POST['con_password'];
+$mobile =$_POST['mobile'];
+
+$query="INSERT INTO registration (username,email,password,con_password,mobile) VALUES('$user_name','$email','$password','$con_password','$mobile')";
+$data=mysqli_query($con,$query);
+if($data){
+  echo "data save";
+
+  }
+
+
+  else{
+    echo "please try again";
+  }
   
+
+}
+  ?>
+  <script type="text/javascript">alert("please try again");
+</script>
+
   <!-- Register buttons -->
   <div class="text-center">
     <p>Already have an account <a href="login.php">Login Here</a></p>
@@ -85,8 +112,6 @@
 
 </div>
 
-</div>
-</div>
 </div>
 </div>
 

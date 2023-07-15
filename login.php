@@ -51,7 +51,7 @@
 
   <!-- Register buttons -->
   <div class="text-center">
-    <p>Not a member? <a href="Registration.php">Register</a></p>
+    <p>Not a member? <a href="Register.php">Register</a></p>
     <p>or Login with:</p>
     <button type="button" class="btn btn-link btn-floating mx-1">
       <i class="fab fa-facebook-f"></i>
@@ -79,21 +79,28 @@
   if (isset($_POST['login_btn'])) {
   $email=mysqli_real_escape_string($con,$_POST['email']);
   $pass=mysqli_real_escape_string($con,$_POST['password']);
-  $sql="SELECT * FROM registration WHERE `email`='{$email}' AND `password`='{$pass}'";
+  $sql="SELECT * FROM users WHERE `email_id`='{$email}' AND `password`='{$pass}' AND `status`= 'ACTIVE'";
   $query=mysqli_query($con,$sql);
-  $data=mysqli_num_rows($query);
-  if($data) {
+  $data=$query->fetch_assoc();
+  if(!is_null($data) && $data['user_role']==1) {
 ?>
   <script type="text/javascript">
-    console.log('data received', <?php print_r($data) ?>)
-  window.location.href = 'user/static/index.php';</script>
+    window.location.href = 'user/static/index.php';
+  </script>
+<?php
+    // header("location:after-login.php");
+  } else if(!is_null($data) && $data['user_role']==2) {
+?>
+  <script type="text/javascript">
+    window.location.href = 'Home.php';
+  </script>
 <?php
     // header("location:after-login.php");
   }
 else
 {
   
-  $_SESSION['error']="Invalid email/password";
+  $_SESSION['error']="ivalid email/password";
 
   
 }
