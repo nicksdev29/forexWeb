@@ -40,30 +40,30 @@ Welcome
 					
 
 					<li class="sidebar-header">
-						Testimonials
+						News
 					</li>
 
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="Add testimonials.php">
-              <i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Add testimonials</span>
+              <i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Add News</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="ui-forms.php">
-              <i class="align-middle" data-feather="check-square"></i> <span class="align-middle">Edit testimonials</span>
+              <i class="align-middle" data-feather="check-square"></i> <span class="align-middle">Edit News</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="ui-cards.php">
-              <i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Update testimonials</span>
+              <i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Update News</span>
             </a>
 					</li>
 
 					<li class="sidebar-item">
 						<a class="sidebar-link" href="ui-typography.php">
-              <i class="align-middle" data-feather="align-left"></i> <span class="align-middle">Delete testimonials</span>
+              <i class="align-middle" data-feather="align-left"></i> <span class="align-middle">Delete News</span>
             </a>
 					</li>
 

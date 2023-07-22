@@ -192,7 +192,7 @@
 				<div class="container-fluid p-0">
 
 					<div class="mb-3">
-						<h1 class="h3 d-inline align-middle">Testimonials</h1>
+						<h1 class="h3 d-inline align-middle">News</h1>
 						<!------<a class="badge bg-dark text-white ms-2" href="upgrade-to-pro.php">
       Get more form examples
   </a>-------------------------------->
@@ -201,7 +201,7 @@
 						<div class="col-12 col-lg-9">
 							<div class="card">
 								<div class="card-header">
-									<h5 class="card-title mb-0">testimonial title</h5>
+									<h5 class="card-title mb-0">News title</h5>
 								</div>
 								<div class="card-body">
 									<input type="text" class="form-control" placeholder="Input">
@@ -217,7 +217,8 @@
 								</div>
 							</div>
 
-							<div class="card">
+
+							<!---------<div class="card">
 								<div class="card-header">
 									<h5 class="card-title mb-0">Checkboxes</h5>
 								</div>
@@ -264,31 +265,39 @@
 									<h5 class="card-title mb-0">Read only</h5>
 								</div>
 								<div class="card-body">
-									<input class="form-control" type="text" placeholder="Readonly input" readonly>
+									<input class="form-control" type="text" placeholder="Readonly input" readonly>-------------------------------->
 								</div>
-							</div>
-						</div>
+							
+						
+
 
 						<div class="col-6 col-lg-3">
 							<div class="card">
 								<div class="card-header">
-									<h5 class="card-title mb-0">Radios</h5>
+									<h5 class="card-title mb-0">Category</h5>
 								</div>
 								<div class="card-body">
 									<div>
 										<label class="form-check">
-            <input class="form-check-input" type="radio" value="option1" name="radios-example" checked>
+            <input class="form-check-input" type="checkbox" value="">
             <span class="form-check-label">
-              Option one is this and that&mdash;be sure to include why it's great
+              News
             </span>
           </label>
-										<label class="form-check">
-            <input class="form-check-input" type="radio" value="option2" name="radios-example">
+<label class="form-check">
+            <input class="form-check-input" type="checkbox" value="">
             <span class="form-check-label">
-              Option two can be something else and selecting it will deselect option one
+             Blog
             </span>
           </label>
-										<label class="form-check">
+          <label class="form-check">
+            <input class="form-check-input" type="checkbox" value="">
+            <span class="form-check-label">
+              Category3
+            </span>
+          </label>
+
+									<!------	<label class="form-check">
             <input class="form-check-input" type="radio" value="option3" name="radios-example" disabled>
             <span class="form-check-label">
               Option three is disabled
@@ -313,16 +322,22 @@
             <span class="form-check-label">
               3
             </span>
-          </label>
+          </label>--------->
 									</div>
 								</div>
 							</div>
 
 							<div class="card">
 								<div class="card-header">
-									<h5 class="card-title mb-0">Selects</h5>
-								</div>
+									<h5 class="card-title mb-0">Tag</h5>
+									</div>
+					
 								<div class="card-body">
+									<input type="text" class="form-control" placeholder="Input">
+								</div>
+							
+
+								<!----<div class="card-body">
 									<select class="form-select mb-3">
           <option selected>Open this select menu</option>
           <option>One</option>
@@ -337,8 +352,24 @@
           <option>Four</option>
         </select>
 								</div>
-							</div>
+							</div>------------->
+							
+<div class="card-body">
+								<div class="card-header">
+									<h5 class="card-title mb-0">file attach</h5>
+									</div>
 
+  <form action="/upload" method="POST" enctype="multipart/form-data">
+    <label for="attachment">Select a file:</label>
+    <input type="file" id="attachment" name="attachment">
+
+    <br><br>
+
+    <input type="submit" value="Upload">
+  </form>
+</div>
+
+<!--------------
 							<div class="card">
 								<div class="card-header">
 									<h5 class="card-title mb-0">Disabled</h5>
@@ -360,7 +391,7 @@
             Can't check this
           </span>
         </label>
-								</div>
+								</div>------------------------------------>
 							</div>
 						</div>
 					</div>
