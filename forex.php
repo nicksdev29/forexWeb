@@ -1,3 +1,4 @@
+<?php include 'connection.php'?>
 <?php include 'header.php'?>
  
 
@@ -356,20 +357,31 @@
                          <button class="btn btn-primary w-100">Read More</button>
                         
                     </div>
+                <?php
+                    $query = "select * from posts";
+                    $result = mysqli_query($con, $query);
+                    $count = 0;
+                    while( $newsList = $result->fetch_assoc() ) {
+                    ?>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                         <div>
+                            <div>
                                 <h6 class="fw-bold mb-1">Forex news</h6>
-                                <small>Real-time Forex News and the latest trading updates.</small>
+                                <small><?php echo $newsList['title']; ?></small>
                             </div>
-                             <img class="img-fluid flex-shrink-0 rounded" src="img/news 3.jpg" style="width: 100%; height: 100%;">
-                        <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                                <img class="img-fluid flex-shrink-0 rounded" src="<?php echo $newsList['media_link']; ?>" style="width: 100%; height: 100%;">
+                        <p>
+                            <?php echo $newsList['content']; ?>
+                        </p>
                         <div class="d-flex align-items-center">
-                           
-                           
+                            
+                            
                         </div>
-                         <button class="btn btn-primary w-100">Read More</button>
+                            <button class="btn btn-primary w-100">Read More</button>
                         
                     </div>
+                    <?php
+                    }
+                ?>
                 </div>
             </div>
         </div>
