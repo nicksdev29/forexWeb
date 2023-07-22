@@ -1,4 +1,4 @@
-<?php include_once($_SERVER['DOCUMENT_ROOT'].'\env.php'); ?>
+<?php include($_SERVER['DOCUMENT_ROOT'].'\env.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
