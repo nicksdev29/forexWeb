@@ -53,7 +53,7 @@
 									$title=mysqli_real_escape_string($con,$_POST['title']);
 									$content=mysqli_real_escape_string($con,$_POST['content']);
 									$mediaLink=mysqli_real_escape_string($con,$_POST['uploadedFileUrl']);
-									$query = "INSERT INTO `posts` (`title`, `media_link`, `content`, `created_time`, `created_by`) VALUES ( '{$title}', '{$content}', '{$mediaLink}', '".date('Y-m-d H:i:s')."', 1 )";
+									$query = "INSERT INTO `posts` (`title`, `media_link`, `content`, `created_time`, `created_by`) VALUES ( '{$title}', '{$mediaLink}', '{$content}', '".date('Y-m-d H:i:s')."', 1 )";
 									try {
 										$result = mysqli_query($con, $query);
 										print_r($result);
