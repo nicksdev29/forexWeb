@@ -1,4 +1,4 @@
-<?php  ?>
+<?php include( realpath($_SERVER['DOCUMENT_ROOT']).'/connection.php'); ?>
 <?php include '../head.php'?>
 <body>
 	<div class="wrapper">
@@ -53,7 +53,7 @@
 									$title=mysqli_real_escape_string($con,$_POST['title']);
 									$content=mysqli_real_escape_string($con,$_POST['content']);
 									$mediaLink=mysqli_real_escape_string($con,$_POST['uploadedFileUrl']);
-									echo $query = "INSERT INTO `posts` (`title`, `media_link`, `content`, `created_time`, `created_by`) VALUES ( '{$title}', '{$content}', '{$mediaLink}', '".date('Y-m-d H:i:s')."', 'admin' )";
+									$query = "INSERT INTO `posts` (`title`, `media_link`, `content`, `created_time`, `created_by`) VALUES ( '{$title}', '{$content}', '{$mediaLink}', '".date('Y-m-d H:i:s')."', 'admin' )";
 									try {
 										$result = mysqli_query($con, $query);
 										print_r($result);
@@ -61,6 +61,8 @@
 										?>
 											<script>window.location.href='./news-list.php';</script>
 										<?php
+										} else {
+											printf("error: %s\n", mysqli_error($con));
 										}
 									} catch (Exception $e) {
 										print_r($e);
