@@ -130,7 +130,8 @@
                                 </div>
                             </div>
                             <h5 class="mb-3">Foriegn exchange</h5>
-                            <p class="text-body mb-0"> We are dealing with all major currencies of the world including Miscellaneous currencies like Thai Bhat, Philippine Peso, Indonesian Rupiya etc. We are offering you very competitive rates while buying and selling currencies.</p>
+                            <p class="text-body mb-0"> We are dealing with all major currencies of the world including 
+                                <span id="dots"><b>...Read more</b></span><span id="more"></p></p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
