@@ -6,7 +6,7 @@ $db="samfxt_db";
 
 // $pass="";
 // $db="samfxt";
-$con=mysqli_connect ($host,$user,$pass,$db);
+$con=mysqli_connect($host,$user,$pass,$db);
 
 
 ;?>
