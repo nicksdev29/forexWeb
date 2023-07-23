@@ -49,10 +49,12 @@
 							</div>
 
 							<?php
-							print_r($_POST);
 								if(isset($_POST) && isset($_POST['title']) && isset($_POST['content']) && isset($_POST['uploadedFileUrl'])) {
-									$query = "insert into posts(`title`, `media_link`, `content`, `created_time`, `created_by`) values ( '".$_POST['title']."', '".$_POST['uploadedFileUrl']."', '".$_POST['content']."', '".date("Y-m-d H:i:s")."', 'admin' )";
-									$result = mysqli_query($con, $query);
+									$title=mysqli_real_escape_string($con,$_POST['title']);
+									$content=mysqli_real_escape_string($con,$_POST['content']);
+									$mediaLink=mysqli_real_escape_string($con,$_POST['uploadedFileUrl']);
+									$query = "insert into posts(`title`, `media_link`, `content`, `created_time`, `created_by`) values ( '{$title}', '{$content}', '{$mediaLink}', '{date('Y-m-d H:i:s')}', 'admin' )";
+									$result = mysqli_query($query, $con);
 									print_r($result);
 									if( isset($result) && $result > 0 ) {
 									?>
