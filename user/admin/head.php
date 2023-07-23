@@ -1,4 +1,4 @@
-<?php include($_SERVER['DOCUMENT_ROOT'].'\env.php'); ?>
+<?php include_once( realpath($_SERVER['DOCUMENT_ROOT']).'/env.php'); ?>
 <!DOCTYPE html>
 <html lang="en">
 
