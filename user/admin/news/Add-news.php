@@ -54,7 +54,7 @@
 									$content=mysqli_real_escape_string($con,$_POST['content']);
 									$mediaLink=mysqli_real_escape_string($con,$_POST['uploadedFileUrl']);
 									echo $query = "insert into posts(`title`, `media_link`, `content`, `created_time`, `created_by`) values ( '{$title}', '{$content}', '{$mediaLink}', '{date('Y-m-d H:i:s')}', 'admin' )";
-									$result = mysqli_query($query, $con);
+									$result = mysqli_query($con, $query);
 									print_r($result);
 									if( isset($result) && $result > 0 ) {
 									?>
