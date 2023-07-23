@@ -52,6 +52,7 @@
 								if(isset($_POST) && isset($_POST['title']) && isset($_POST['content']) && isset($_POST['uploadedFileUrl'])) {
 									$query = "insert into posts(`title`, `media_link`, `content`, `created_time`, `created_by`) values ( '".$_POST['title']."', '".$_POST['uploadedFileUrl']."', '".$_POST['content']."', '".date("Y-m-d H:i:s")."', 'admin' )";
 									$result = mysqli_query($con, $query);
+									print_r($result);
 									if( isset($result) && $result > 0 ) {
 									?>
 										<script>window.location.href='./news-list.php';</script>
