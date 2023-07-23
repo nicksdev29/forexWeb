@@ -1,4 +1,4 @@
-<?php include( realpath($_SERVER['DOCUMENT_ROOT']).'/connection.php'); ?>
+<?php  ?>
 <?php include '../head.php'?>
 <body>
 	<div class="wrapper">
