@@ -54,12 +54,16 @@
 									$content=mysqli_real_escape_string($con,$_POST['content']);
 									$mediaLink=mysqli_real_escape_string($con,$_POST['uploadedFileUrl']);
 									echo $query = "INSERT INTO `posts` (`title`, `media_link`, `content`, `created_time`, `created_by`) VALUES ( '{$title}', '{$content}', '{$mediaLink}', '".date('Y-m-d H:i:s')."', 'admin' )";
-									$result = mysqli_query($con, $query);
-									print_r($result);
-									if( isset($result) && $result > 0 ) {
-									?>
-										<script>window.location.href='./news-list.php';</script>
-									<?php
+									try {
+										$result = mysqli_query($con, $query);
+										print_r($result);
+										if( isset($result) && $result > 0 ) {
+										?>
+											<script>window.location.href='./news-list.php';</script>
+										<?php
+										}
+									} catch (Exception $e) {
+										print_r($e);
 									}
 								}
 							?>
