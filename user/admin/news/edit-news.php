@@ -54,7 +54,7 @@
 								<div class="card-body">
 									<textarea class="form-control" rows="6" placeholder="Add News Content"
 										name="content">
-                                        <?php echo $receivedData['content']; ?>
+                                        <?php echo trim($receivedData['content']); ?>
                                     </textarea>
 								</div>
 							</div>
