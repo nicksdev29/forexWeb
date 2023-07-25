@@ -88,14 +88,14 @@
                                 <div class="nav-item dropdown">
                                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Travel</a>
                                     <div class="dropdown-menu rounded-0 m-0">
-                                        <a href="booking.php" class="dropdown-item">Holidays</a>
+                                        <a href="Holidays.php" class="dropdown-item">Holidays</a>
                                         <a href="career.php" class="dropdown-item">Career</a>
-                                        <a href="team.php" class="dropdown-item">Short Break</a>
-                                        <a href="booking.php" class="dropdown-item">Flight</a>
-                                        <a href="team.php" class="dropdown-item">Hotel</a>
-                                        <a href="booking.php" class="dropdown-item">Train</a>
-                                        <a href="booking.php" class="dropdown-item">Religious Tour</a>
-                                        <a href="team.php" class="dropdown-item">Other Services</a>
+                                        <a href="Short break.php" class="dropdown-item">Short Break</a>
+                                        <a href="Flight.php" class="dropdown-item">Flight</a>
+                                        <a href="Hotels.php" class="dropdown-item">Hotel</a>
+                                        <a href="Train.php" class="dropdown-item">Train</a>
+                                        <a href="Religious tour.php" class="dropdown-item">Religious Tour</a>
+                                        <a href="Other service.php" class="dropdown-item">Other Services</a>
                                         
                                     </div>
                             </div>
