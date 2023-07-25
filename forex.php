@@ -1,3 +1,4 @@
+<?php include 'connection.php'?>
 <?php include 'header.php'?>
  
 
@@ -133,109 +134,56 @@
                     <div class="row g-2">
                         <div class="col-md-12">
                             <div class="row g-2">
-                              <h1 align="center">INDIAN RUPEE EXCHANGE RATES TABLE</h1>
+                                
+                                <div class="col-md-12">
+                                    <h1 align="center">INDIAN RUPEE EXCHANGE RATES TABLE</h1>
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="row" style="max-height:96vh; overflow-y: auto">
                                 <div class="col-md-6" style="padding: 20px;">
-                                <div class="date" id="date1" data-target-input="nearest"> 
-                                    <h4 class="section-title text-start text-primary text-uppercase mb-4">CURRENCY</h4>
-                              
-                              <div style="height: 600px; overflow-y:auto;">
-                                    <p align="center"> 
-                                       <ul class="forex1">
-                                          <b><li>NAME OF CURRENCIES </li></b>
-                                          <li><b>$</b> USDOLLAR </li>
-                                          <li><b>£</b> BRITISH POUND</li>
-                                          <li><b>€</b> EURO</li>
-                                          <li><b>¥</b> JAPANESE YEN</li>
-                                          <li><b>CA$</b> CANADIAN DOLLAR</li>
-                                          <li><b>AU$</b> AUSTRALIAN DOLLAR</li>
-                                          <li><b>SFR</b> SWISS FRANC</li> 
-                                          <li><b>$</b> NEWZEALAND DOLLAR</li>
-                                          <li><b>RM</b> MALYASIAN RINGGIT</li>
-                                          <li><b>S$</b> SINGAPORE DOLLAR</li>
-                                          <li><b>HK$</b> HONG KONG DOLLAR</li>
-                                          <li><b>SR$</b> SAUDI RIAL</li>
-                                          <li><b>د.إ $</b> UAE DIRHAMS</li>
-                                          <li><b>QR$</b> QATAR RIAL</li>
-                                          <li><b>BD$</b> BAHRAIN DINAR</li>
-                                          <li><b>KD$</b> KUWAIT DINAR</li>
-                                          <li><b>E£</b> EGYPTIAN POUND</li>
-                                          <li><b>ر.ع.</b> OMAN RIAL</li>
-                                          <li><b>¥</b> CHINESE RMB</li>
-                                          <li><b>฿</b> TBH</li>
-                                          <li><b>Rp</b> Indonesian Rupee</li>
-                                          <li><b>₱</b> Philippine paiso</li>
+                                    <div class="date" id="date1" data-target-input="nearest"> 
+                                        <h4 class="section-title text-start text-primary text-uppercase mb-4">CURRENCY</h4>
+
+                                        <p align="center"> 
+                                        <ul class="forex1">
+                                            <b>NAME OF CURRENCIES</b>
+                                            <li><b>$</b> USDOLLAR </li>
+                                            <li><b>£</b> BRITISH POUND</li>
+                                            <li><b>€</b> EURO</li>
+                                            <li><b>¥</b> JAPANESE YEN</li>
+                                            <li><b>CA$</b> CANADIAN DOLLAR</li>
+                                            <li><b>AU$</b> AUSTRALIAN DOLLAR</li>
+                                            <li><b>SFR</b> SWISS FRANC</li> 
+                                            <li><b>$</b> NEWZEALAND DOLLAR</li>
+                                            <li><b>RM</b> MALYASIAN RINGGIT</li>
+                                            <li><b>S$</b> SINGAPORE DOLLAR</li>
+                                            <li><b>HK$</b> HONG KONG DOLLAR</li>
+                                            <li><b>SR$</b> SAUDI RIAL</li>
+                                            <li><b>د.إ $</b> UAE DIRHAMS</li>
+                                            <li><b>QR$</b> QATAR RIAL</li>
+                                            <li><b>BD$</b> BAHRAIN DINAR</li>
+                                            <li><b>KD$</b> KUWAIT DINAR</li>
+                                            <li><b>E£</b> EGYPTIAN POUND</li>
+                                            <li><b>ر.ع.</b> OMAN RIAL</li>
+                                            <li><b>¥</b> CHINESE RMB</li>
+                                            <li><b>฿</b> TBH</li>
+                                            <li><b>Rp</b> Indonesian Rupee</li>
+                                            <li><b>₱</b> Philippine paiso</li>
 
 
-                                          
+                                            
 
-                                    </ul>
-                                 </p>
-                                    
-                                 
+                                        </ul>
+                                    </p>
+
+
+
+                                    </div>
                                 </div>
 
-
-                                </div>
-                                <!-- 
-
-                                    <div class="col-md-5" style="padding: 25px;">
-                                    <div class="date" id="date1" data-target-input="nearest">
-                                    <h4 class="section-title text-start text-primary text-uppercase mb-4">RATES</h4>
-                                   <div class="row">
-                                   <div class="col-md-3">
-                                    <p align="center"><ul class="forex1" style="list-style-type:none;">
-                                          <li><b>1.00 INR</b></li>
-                                          
-                                          <li>0.012214</li>
-                                          <li>0.011223</li>
-                                          <li>0.009855</li>
-                                          <li>0.018383</li>
-                                          <li>0.016523</li>
-                                          <li>0.016275</li>
-                                          <li>0.011084</li> 
-                                          <li>0.053769</li>
-                                          <li>1.616144</li>
-                                          <li>0.083933</li>
-                                          <li>0.083933</li>
-                                          <li>0.053769</li>
-                                          <li>0.009855</li>
-                                          <li>0.011084</li>
-                                          <li>0.009855</li>
-                                          <li>0.018383</li>
-                                          <li>0.016523</li>
-                                          <li>0.083933</li>
-                                          
-                                                                             </ul></p></div>
-
-                                    <div class="col-md-3" align="center">
-                                    
-                                    <p align="center"><ul class="forex1" style="list-style-type:none;">
-                                          <b><li>1.00 INR</li></b>
-                                          
-                                          <li>81.874864</li>
-                                          <li>89.100682</li>
-                                          <li>101.473748</li>
-                                          <li>54.396806</li>
-                                          <li>60.521525</li>
-                                          <li>61.443018</li>
-                                          <li>90.217415</li> 
-                                          <li>18.597949</li>
-                                          <li>0.618757</li>
-                                          <li>11.914228</li>
-                                          <li>11.914228</li>
-                                          <li>89.100682</li>
-                                          <li>101.473748</li>
-                                          <li>54.396806</li>
-                                          <li>60.521525</li>
-                                          <li>61.443018</li>
-                                          <li>90.217415</li> 
-                                          <li>18.597949</li>
-                                          
-                                      
-                                    </ul></p></div>--  -->
                                      <div class="col-md-3" align="center">
                                     <p align="center"><ul class="forex1" style="list-style-type:none;"> <br> <br> <br>
-                                          <b><li>BUY</li></b>
+                                          <b>BUY</b>
                                          
                                           <li><a href="#" class="buy">BUY</a></li>
                                           <li><a href="#" class="buy">BUY</a></li>
@@ -266,7 +214,7 @@
 
 <div class="col-md-3"button>
                                     <p align="center"><ul class="forex1" style="list-style-type:none;"align="center"> <br> <br> <br>
-                                          <b><li>SELL</li></b>
+                                          <b>SELL</b>
                                          
                                           <li><a href="#" class="buy">SELL</a></li>
                                           <li><a href="#" class="buy">SELL</a></li>
@@ -294,6 +242,8 @@
                                       
                                     </ul></p></div>
 
+                                    </div>
+                                </div>
 
                                 </div>
                                  </div>
@@ -357,20 +307,31 @@
                          <button class="btn btn-primary w-100">Read More</button>
                         
                     </div>
+                <?php
+                    $query = "select * from posts";
+                    $result = mysqli_query($con, $query);
+                    $count = 0;
+                    while( $newsList = $result->fetch_assoc() ) {
+                    ?>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                         <div>
+                            <div>
                                 <h6 class="fw-bold mb-1">Forex news</h6>
-                                <small>Real-time Forex News and the latest trading updates.</small>
+                                <small><?php echo $newsList['title']; ?></small>
                             </div>
-                             <img class="img-fluid flex-shrink-0 rounded" src="img/news 3.jpg" style="width: 100%; height: 100%;">
-                        <p>Tempor stet labore dolor clita stet diam amet ipsum dolor duo ipsum rebum stet dolor amet diam stet. Est stet ea lorem amet est kasd kasd et erat magna eos</p>
+                                <img class="img-fluid flex-shrink-0 rounded" src="<?php echo $newsList['media_link']; ?>" style="width: 100%; height: 100%;">
+                        <p>
+                            <?php echo $newsList['content']; ?>
+                        </p>
                         <div class="d-flex align-items-center">
-                           
-                           
+                            
+                            
                         </div>
-                         <button class="btn btn-primary w-100">Read More</button>
+                            <button class="btn btn-primary w-100">Read More</button>
                         
                     </div>
+                    <?php
+                    }
+                ?>
                 </div>
             </div>
         </div>

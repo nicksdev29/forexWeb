@@ -85,7 +85,7 @@
   if(!is_null($data) && $data['user_role']==1) {
 ?>
   <script type="text/javascript">
-    window.location.href = 'user/static/index.php';
+    window.location.href = 'user/admin/index.php';
   </script>
 <?php
     // header("location:after-login.php");
