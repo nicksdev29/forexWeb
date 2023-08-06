@@ -89,7 +89,7 @@
                                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Travel</a>
                                     <div class="dropdown-menu rounded-0 m-0">
                                         <a href="Holidays.php" class="dropdown-item">Holidays</a>
-                                        <a href="career.php" class="dropdown-item">Career</a>
+                                        
                                         <a href="Short break.php" class="dropdown-item">Short Break</a>
                                         <a href="Flight.php" class="dropdown-item">Flight</a>
                                         <a href="Hotels.php" class="dropdown-item">Hotel</a>
@@ -116,6 +116,8 @@
                                    </div>
                                 </div>---->
                                 <a href="contact.php" class="nav-item nav-link">Contact Us</a>
+                                
+                                <a href="career.php" class="nav-item nav-link">Career</a>
                                 <a href="login.php" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Login | Registration<i class="fa fa-arrow-right ms-3"></i></a>
                         </div>
                     </nav>

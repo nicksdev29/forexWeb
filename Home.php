@@ -431,18 +431,19 @@ Europe and African Safari etc.</p>
                 
                 <div class="row g-4">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                        <a class="service-item rounded" href="">
+                        <a class="service-item rounded" href="forex.php">
                             <div class="service-icon bg-transparent border rounded p-1">
                                 <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-dollar" style="font-size:36px"></i>
                                 </div>
                             </div>
                             <h5 class="mb-3">Foriegn exchange</h5>
-                            <p class="text-body mb-0">We are dealing with all major currencies of the world including Miscellaneous currencies like Thai Bhat, Philippine Peso, Indonesian Rupiya etc. We are offering you very competitive rates while buying and selling currencies.</p>
+                            <p class="text-body mb-0"> We are dealing with all major currencies of the world including 
+                                <span id="dots"><b>...Read more</b></span><span id="more"></p></p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <a class="service-item rounded" href="">
+                        <a class="service-item rounded" href="Flight.php">
                             <div class="service-icon bg-transparent border rounded p-1">
                                 <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-plane fa-2x" aria-hidden="true"></i>
@@ -450,56 +451,57 @@ Europe and African Safari etc.</p>
                                 </div>
                             </div>
                             <h5 class="mb-3">Flight (Domestic and International)</h5>
-                            <p class="text-body mb-0">We will book your flight tickets for your Travel anywhere both Domestic and International.</p>
+                            <p class="text-body mb-0">We will book your flight tickets for your Travel anywhere both Domestic<span id="dots"><b>...Read more</b></span><span id="more"></p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                        <a class="service-item rounded" href="">
+                        <a class="service-item rounded" href="Train.php">
                             <div class="service-icon bg-transparent border rounded p-1">
                                 <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-train fa-2x" aria-hidden="true"></i>
                                 </div>
                             </div>
                             <h5 class="mb-3">Train Booking</h5>
-                            <p class="text-body mb-0">When you are planning to travel by train pls think of us . We will book your tickets according to your train choice. We book Hill Trains (Ooty, Darjeeling etc) Luxury Train Palace on wheels, Deccan Queen, Rajdhani, Satabdi etc,</p>
+                            <p class="text-body mb-0">When you are planning to travel by train pls think of us . We will book your tickets<span id="dots"><b>...Read more</b></span><span id="more"></p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <a class="service-item rounded" href="">
+                        <a class="service-item rounded" href="Hotels.php">
                             <div class="service-icon bg-transparent border rounded p-1">
                                 <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-building fa-2x" aria-hidden="true"></i>
                                 </div>
                             </div>
                             <h5 class="mb-3">Rooms and appartment</h5>
-                            <p class="text-body mb-0">We will take care of your hotels when you are planning to go for an official trip or leisure holidays . We book all star hotels and non star hotels.</p>
+                            <p class="text-body mb-0">We will take care of your hotels when you are planning to go for an official trip or <span id="dots"><b>...Read more</b></span><span id="more"></p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                        <a class="service-item rounded" href="">
+                        <a class="service-item rounded" href="BUS AND CAR RENTALS.php">
                             <div class="service-icon bg-transparent border rounded p-1">
                                 <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-bus" style="font-size:36px"></i>
                                 </div>
                             </div>
                             <h5 class="mb-3">Bus & car Rentals</h5>
-                            <p class="text-body mb-0">For group Travels we book luxury buses and cars all over India . Therefore contact us for any kind of bookings.</p>
+                            <p class="text-body mb-0">For group Travels we book luxury buses and cars all over India . Therefore <span id="dots"><b>...Read more</b></span><span id="more"></p>
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <a class="service-item rounded" href="">
+                        <a class="service-item rounded" href="CUSTOMISED TOURS.php">
                             <div class="service-icon bg-transparent border rounded p-1">
                                 <div class="w-100 h-100 border rounded d-flex align-items-center justify-content-center">
                                 <i class="fa fa-briefcase" style="font-size:36px"></i>
                                 </div>
                             </div>
                             <h5 class="mb-3">Customized Tours</h5>
-                            <p class="text-body mb-0">Our Travel experts will guide your tour packages within India or abroad when you make a plan for a leisure holidays. So contact us and according to your choice we will make your trip comfortable and happy.</p>
+                            <p class="text-body mb-0">Our Travel experts will guide your tour packages within India or abroad when <span id="dots"><b>...Read more</b></span><span id="more"></p>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
+
         <!-- Service End -->
 
 
