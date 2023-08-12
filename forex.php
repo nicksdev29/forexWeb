@@ -262,7 +262,9 @@
                                       <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                               </table>
-
+                              </div>
+                              </div>
+                              </div></div>
                                         <!----<ul class="forex1">
                                             <b>NAME OF CURRENCIES</b>
                                             <li><b>$</b> USDOLLAR </li>
@@ -389,6 +391,7 @@
         
 
              <!-- Testimonial Start -->
+             </div>
         <div class="container-xxl testimonials my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
 
             <div class="container">
