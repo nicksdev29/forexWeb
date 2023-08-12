@@ -267,6 +267,9 @@
                               </div></div>
                               </div>
      </div>
+     </div>
+                              </div></div>
+                              </div>
                                         <!----<ul class="forex1">
                                             <b>NAME OF CURRENCIES</b>
                                             <li><b>$</b> USDOLLAR </li>
