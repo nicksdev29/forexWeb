@@ -138,14 +138,7 @@
                                 <div class="col-md-12">
                                     <h1 align="center">INDIAN RUPEE EXCHANGE RATES TABLE</h1>
                                 </div>
-                                <Table>
-                                    <tr>
-                                        <td></td>
-                                        <td></td>
-                                        <td></td>
-                                    </tr>
-                                </Table>
-                                <div class="col-md-12">
+                                    <div class="col-md-12">
                                     <div class="row" style="max-height:96vh; overflow-y: auto">
                                 <div class="col-md-6" style="padding: 20px;">
                                     <div class="date" id="date1" data-target-input="nearest"> 
