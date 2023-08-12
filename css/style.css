@@ -75,6 +75,15 @@
     font-weight: normal;
     border-radius: 2px;
 }
+/***forex buy sell ***/
+.buywidth
+{
+    width: 20%;
+}
+.currencyname
+{
+    width: 60%;
+}
 
 
 /*** Navbar ***/

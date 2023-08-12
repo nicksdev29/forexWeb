@@ -145,121 +145,121 @@
                                         <h4 class="section-title text-start text-primary text-uppercase mb-4">CURRENCY</h4>
 
                                         <p align="center"> 
-                                        <table>
+                                        <table width="1024px">
                                   <tr>
-                                      <td>NAME OF CURRENCIES</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">NAME OF CURRENCIES</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</a></td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</a></td>
                                   </tr>
                                   <tr>
-                                      <td>$ USDOLLAR</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">$ USDOLLAR</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>£ BRITISH POUND</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">£ BRITISH POUND</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>€ EURO</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">€ EURO</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>¥ JAPANESE YEN</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">¥ JAPANESE YEN</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>CA$ CANADIAN DOLLAR</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">CA$ CANADIAN DOLLAR</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>AU$ AUSTRALIAN DOLLAR</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">AU$ AUSTRALIAN DOLLAR</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>SFR SWISS FRANC</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">SFR SWISS FRANC</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>$ NEWZEALAND DOLLAR</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">$ NEWZEALAND DOLLAR</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>RM MALYASIAN RINGGIT</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">RM MALYASIAN RINGGIT</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>S$ SINGAPORE DOLLAR</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">S$ SINGAPORE DOLLAR</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>HK$ HONG KONG DOLLAR</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">HK$ HONG KONG DOLLAR</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>SR$ SAUDI RIAL</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">SR$ SAUDI RIAL</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>د.إ $ UAE DIRHAMS</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">د.إ $ UAE DIRHAMS</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>QR$ QATAR RIAL</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">QR$ QATAR RIAL</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>BD$ BAHRAIN DINAR</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">BD$ BAHRAIN DINAR</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>KD$ KUWAIT DINAR</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">KD$ KUWAIT DINAR</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>E£ EGYPTIAN POUND</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">E£ EGYPTIAN POUND</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>ر.ع. OMAN RIAL</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">ر.ع. OMAN RIAL</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                   <tr>
-                                      <td>¥ CHINESE RMB</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">¥ CHINESE RMB</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                    <tr>
-                                      <td>฿ TBH</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">฿ TBH</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                    <tr>
-                                      <td>Rp Indonesian Rupee</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">Rp Indonesian Rupee</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                                    <tr>
-                                      <td>₱ Philippine paiso</td>
-                                      <td>BUY</td>
-                                      <td>SELL</td>
+                                      <td class="currencyname">₱ Philippine paiso</td>
+                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
                                   </tr>
                               </table>
 
@@ -536,7 +536,7 @@
             
             
             </div>
-            <img class="img-fluid flex-shrink-0 rounded" src="img/orbax.png" style="width: 100%; height: 100%;">
+            <img class="img-fluid flex-shrink-0 rounded" src="img/orbax.jpeg" style="width: 100%; height: 100%;">
             
             <div class="d-flex align-items-center">
             </div>
