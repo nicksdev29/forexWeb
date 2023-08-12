@@ -138,6 +138,13 @@
                                 <div class="col-md-12">
                                     <h1 align="center">INDIAN RUPEE EXCHANGE RATES TABLE</h1>
                                 </div>
+                                <Table>
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </Table>
                                 <div class="col-md-12">
                                     <div class="row" style="max-height:96vh; overflow-y: auto">
                                 <div class="col-md-6" style="padding: 20px;">
@@ -145,7 +152,125 @@
                                         <h4 class="section-title text-start text-primary text-uppercase mb-4">CURRENCY</h4>
 
                                         <p align="center"> 
-                                        <ul class="forex1">
+                                        <table>
+                                  <tr>
+                                      <td>NAME OF CURRENCIES</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>$ USDOLLAR</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>£ BRITISH POUND</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>€ EURO</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>¥ JAPANESE YEN</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>CA$ CANADIAN DOLLAR</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>AU$ AUSTRALIAN DOLLAR</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>SFR SWISS FRANC</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>$ NEWZEALAND DOLLAR</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>RM MALYASIAN RINGGIT</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>S$ SINGAPORE DOLLAR</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>HK$ HONG KONG DOLLAR</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>SR$ SAUDI RIAL</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>د.إ $ UAE DIRHAMS</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>QR$ QATAR RIAL</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>BD$ BAHRAIN DINAR</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>KD$ KUWAIT DINAR</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>E£ EGYPTIAN POUND</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>ر.ع. OMAN RIAL</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                  <tr>
+                                      <td>¥ CHINESE RMB</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                   <tr>
+                                      <td>฿ TBH</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                   <tr>
+                                      <td>Rp Indonesian Rupee</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                                   <tr>
+                                      <td>₱ Philippine paiso</td>
+                                      <td>BUY</td>
+                                      <td>SELL</td>
+                                  </tr>
+                              </table>
+
+                                        <!----<ul class="forex1">
                                             <b>NAME OF CURRENCIES</b>
                                             <li><b>$</b> USDOLLAR </li>
                                             <li><b>£</b> BRITISH POUND</li>
@@ -267,6 +392,8 @@
                <a href=""></a>
 
             </div>
+
+        
 
              <!-- Testimonial Start -->
         <div class="container-xxl testimonials my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
