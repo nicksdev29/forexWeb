@@ -576,6 +576,8 @@
             </div>
         </div>
      </div>
+     </div>
+     </div>
         <!-- Testimonial End -->
 
         <!-- Room End -->
