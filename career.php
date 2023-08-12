@@ -94,14 +94,14 @@
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <form>
                             <div class="form-group border-bottom d-flex align-items-center justify-content-between flex-wrap">
-                <label class="option my-sm-0 my-2">
+                <!--<label class="option my-sm-0 my-2">
                     <input type="radio" name="radio" checked>&nbsp;&nbsp;&nbsp; Male
                     <span class="checkmark"></span>
                 </label>
                 <label class="option my-sm-0 my-2">
                     <input type="radio" name="radio" >&nbsp;&nbsp;&nbsp; female 
                     <span class="checkmark"></span>
-                </label>
+                </label>------>
                 <br>
                     </div>
                                 <div class="row g-3">
@@ -114,7 +114,7 @@
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="Surname" class="form-control" id="Surname" placeholder="Your Surname">
-                                            <label for="surname">Surname</label>
+                                            <label for="surname">Last Name</label>
                                         </div>
                                     </div>
                                     <!--<div class="col-md-6">
@@ -122,7 +122,7 @@
                                             <input type="text" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" />
                                             <label for="checkin">Resigned</label>
                                         </div>
-                                    </div>--->
+                                    </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="mobile no" class="form-control" id="mobile no" placeholder="Your mobile no">
@@ -135,12 +135,12 @@
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
-                                    <!----<div class="form-group d-sm-flex margin">
+                                    <div class="form-group d-sm-flex margin">
                 <div class="d-flex align-items-center flex-fill me-sm1 my-sm-0 border-bottom position-relative">
                     <input type="date" required placeholder="Depart Date" class="form-control">
                     <div class="label" id="depart"></div>
                 </div>
-                <!---<div class="d-flex align-items-center flex-fill ms-sm-1 my-sm-0 my-4 border-bottom position-relative">
+                <div class="d-flex align-items-center flex-fill ms-sm-1 my-sm-0 my-4 border-bottom position-relative">
                     <input type="date" required placeholder="Return Date" class="form-control">
                     <div class="label" id="return"></div>
                 </div>
@@ -174,14 +174,17 @@
                                             </select>
                                             <label for="select3">Select A Class</label>
                                           </div>
-                                    </div>----------------------------------------------------->
+                                    </div>
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
                                             <label for="message">Special Request</label>
                                         </div>
-                                    </div>
+                                    </div>----------------------------------------------------->
                                     <div class="col-12">
+                                    <form action="/action_page.php">
+                                           <input type="file" id="myFile" name="filename">
+                                            </form>
                                         <button class="btn btn-primary w-100 py-3" type="submit">Apply</button>
                                     </div>
                                 </div>
