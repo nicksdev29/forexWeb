@@ -18,7 +18,7 @@
         $email->AddAddress( 'nikhilesh.ganvir29@gmail.com' );
 
         if( is_dir($baseRoot.'/uploads/resumes')) {
-            $destinationFile = $baseRoot.'/'.'/uploads/resumes/'.$resume['name'];
+            $destinationFile = $baseRoot.'/uploads/resumes/'.$resume['name'];
             if(move_uploaded_file($resume['tmp_name'], $destinationFile)) {
 
                 $email->AddAttachment( $destinationFile );
