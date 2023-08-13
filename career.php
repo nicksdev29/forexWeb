@@ -182,7 +182,10 @@
                                         </div>
                                     </div>----------------------------------------------------->
                                     <div class="col-12 mb-3">
-                                        <input type="email" id="email" name="email" class="form-control" required>
+                                        <div class="form-floating">
+                                            <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                                            <label for="email">Email</label>
+                                        </div>
                                     </div>
                                     <div class="col-12 mb-3">
                                         <input type="file" id="myFile" name="resume" class="form-control" required accept=".pdf,.doc,.docx">
