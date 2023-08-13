@@ -65,7 +65,7 @@
 			</li>
 
 			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>forex-currencies/Add-currency.php">
+				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>forex-currencies/add-currency.php">
 		<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Add Currency</span>
 	</a>
 			</li>
