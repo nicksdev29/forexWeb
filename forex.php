@@ -446,7 +446,9 @@
                                 <h6 class="fw-bold mb-1">Forex news</h6>
                                 <small><?php echo $newsList['title']; ?></small>
                             </div>
-                                <img class="img-fluid flex-shrink-0 rounded" src="<?php echo $newsList['media_link']; ?>" style="width: 100%; height: 100%;">
+                            <?php if($newsList['media_link']) { ?>
+                                <img class="img-fluid flex-shrink-0 rounded" src="<?php echo $newsList['media_link']; ?>" style="width: 100%; height: 100%;" />
+                            <?php } ?>
                         <p>
                             <?php echo $newsList['content']; ?>
                         </p>

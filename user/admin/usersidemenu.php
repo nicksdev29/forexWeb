@@ -54,23 +54,22 @@
 	</a>
 			</li>
 
+			<li class="sidebar-header">
+				Currency
+			</li>
+
 			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>ui-forms.php">
-		<i class="align-middle" data-feather="check-square"></i> <span class="align-middle">Edit News</span>
+				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>forex-currencies/currency-list.php">
+		<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Currency List</span>
 	</a>
 			</li>
 
 			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>ui-cards.php">
-		<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Update News</span>
+				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>forex-currencies/add-currency.php">
+		<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Add Currency</span>
 	</a>
 			</li>
 
-			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>ui-typography.php">
-		<i class="align-middle" data-feather="align-left"></i> <span class="align-middle">Delete News</span>
-	</a>
-			</li>
 
 			<!-------------<li class="sidebar-item">
 				<a class="sidebar-link" href="icons-feather.php">

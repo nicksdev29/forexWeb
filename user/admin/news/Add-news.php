@@ -33,7 +33,7 @@
 									<h5 class="card-title mb-0">News title</h5>
 								</div>
 								<div class="card-body">
-									<input type="text" class="form-control" placeholder="Add News Title"
+									<input type="text" class="form-control" placeholder="Add News Title" required
 										name="title">
 								</div>
 							</div>
@@ -43,7 +43,7 @@
 									<h5 class="card-title mb-0">News Content</h5>
 								</div>
 								<div class="card-body">
-									<textarea class="form-control" rows="6" placeholder="Add News Content"
+									<textarea class="form-control" rows="6" placeholder="Add News Content" required
 										name="content"></textarea>
 								</div>
 							</div>
@@ -77,16 +77,21 @@
 								<div class="card-header">
 									<h5 class="card-title mb-0">Upload Media</h5>
 								</div>
-								<div class="card-body">
+								<div class="card-body" style="overflow: hidden">
 
 									<label for="attachment">Select a file:</label>
-									<input type="file" id="news_attachment" name="news_attachment">
+									<input type="file" id="news_attachment" name="news_attachment" accept=".jpg,.jpeg,.png">
 
 									<br><br>
 
 									<input type="button" value="Upload" onclick="uploadNewsMedia();">
 									<a href="" id="uploadedFile" target="_blank"></a>
 									<input type="hidden" name="uploadedFileUrl" id="uploadedFileUrl" />
+									<div class="loader" id="media-upload-loader" style="display:none;position: absolute;top: 0;left: 0;height: 100%;width: 100%;align-items: center;justify-content: center;background-color: #ffffffd6;z-index: 99;">
+										<div class="spinner-border" role="status">
+											<span class="sr-only">Loading...</span>
+										</div>
+									</div>
 								</div>
 
 								<div class="card-header">

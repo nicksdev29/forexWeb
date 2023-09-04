@@ -42,8 +42,8 @@
 									<h5 class="card-title mb-0">News title</h5>
 								</div>
 								<div class="card-body">
-									<input type="text" class="form-control" placeholder="Add News Title"
-										name="title" value="<?php echo $receivedData['title']; ?>">
+									<input type="text" class="form-control" placeholder="Edit News Title" 
+										name="title" value="<?php echo $receivedData['title']; ?>" required>
 								</div>
 							</div>
 
@@ -52,8 +52,8 @@
 									<h5 class="card-title mb-0">News Content</h5>
 								</div>
 								<div class="card-body">
-									<textarea class="form-control" rows="6" placeholder="Add News Content"
-										name="content">
+									<textarea class="form-control" rows="6" placeholder="Edit News Content"
+										name="content" required>
                                         <?php echo trim($receivedData['content']); ?>
                                     </textarea>
 								</div>
@@ -81,7 +81,7 @@
 								<div class="card-body">
 
 									<label for="attachment">Select a file:</label>
-									<input type="file" id="news_attachment" name="news_attachment">
+									<input type="file" id="news_attachment" name="news_attachment" accept=".jpg,.jpeg,.png">
 
 									<br><br>
 
@@ -90,6 +90,11 @@
                                         <?php echo $receivedData['media_link']; ?>
                                     </a>
 									<input type="hidden" value="<?php echo $receivedData['media_link']; ?>" name="uploadedFileUrl" id="uploadedFileUrl" />
+									<div class="loader" id="media-upload-loader" style="display:none;position: absolute;top: 0;left: 0;height: 100%;width: 100%;align-items: center;justify-content: center;background-color: #ffffffd6;z-index: 99;">
+										<div class="spinner-border" role="status">
+											<span class="sr-only">Loading...</span>
+										</div>
+									</div>
 								</div>
 
 								<div class="card-header">

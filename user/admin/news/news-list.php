@@ -31,9 +31,15 @@
 										</thead>
 										<tbody>
 											<?php
-												$query = "select * from posts";
+												$currentPage = (isset($_GET['current_page'])) ? $_GET['current_page'] : 1;
+												$pageLimit = 5;
+												$offset = ($currentPage-1) * $pageLimit;
+												$query = "select * from posts order by created_time desc limit ".$pageLimit." offset ".$offset;
 												$result = mysqli_query($con, $query);
 												$count = 0;
+												$queryCount = "select count(*) as total from `posts`";
+												$resultCount = mysqli_query($con, $queryCount);
+												$totalNews = $resultCount->fetch_assoc();
 												while( $newsList = $result->fetch_assoc() ) {
 												?>
 												<tr>
@@ -42,7 +48,7 @@
 													<td>
 														<div class="actions-group">
 															<a class="btn btn-primary" href="./edit-news.php?newsId=<?php echo $newsList['id']; ?>">Edit</a>
-															<a class="btn btn-danger" href="./delete-news.php">Delete</a>
+															<a class="btn btn-danger" href="./del-news.php?news=<?php echo $newsList['id'] ?>">Delete</a>
 														</div>
 													</td>
 												</tr>
@@ -51,6 +57,21 @@
 											?>
 										</tbody>
 									</table>
+									<?php if($totalNews['total'] > $pageLimit) { ?>
+									<nav aria-label="...">
+										<ul class="pagination">
+											<li class="page-item <?php echo ($currentPage == 1) ? "disabled" : "" ?>">
+												<a class="page-link" href="?current_page=<?php echo $currentPage-1 ?>" tabindex="-1" aria-disabled="true">Previous</a>
+											</li>
+											<?php for($pageCount = 1; $pageCount <= ($totalNews['total']/$pageLimit); $pageCount++) { ?>
+											<li class="page-item <?php echo ($pageCount == $currentPage) ? "active" : "" ?>"><a class="page-link" href="?current_page=<?php echo $pageCount; ?>"><?php echo $pageCount; ?></a></li>
+											<?php } ?>
+											<li class="page-item <?php echo ($currentPage == ($totalNews['total']/$pageLimit)) ? "disabled" : "" ?>"">
+											<a class="page-link" href="?current_page=<?php echo $currentPage+1 ?>">Next</a>
+											</li>
+										</ul>
+									</nav>
+									<?php } ?>
 								</div>
 							</div>
 

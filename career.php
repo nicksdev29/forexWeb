@@ -92,7 +92,7 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <form>
+                            <form action="mail-resume.php" method="post" enctype="multipart/form-data" >
                             <div class="form-group border-bottom d-flex align-items-center justify-content-between flex-wrap">
                 <!--<label class="option my-sm-0 my-2">
                     <input type="radio" name="radio" checked>&nbsp;&nbsp;&nbsp; Male
@@ -105,15 +105,15 @@
                 <br>
                     </div>
                                 <div class="row g-3">
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 mb-3">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <input type="text" class="form-control" id="name" name="first_name" placeholder="Your First Name" required>
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 mb-3">
                                         <div class="form-floating">
-                                            <input type="Surname" class="form-control" id="Surname" placeholder="Your Surname">
+                                            <input type="text" class="form-control" id="surname" name="last_name" placeholder="Your Last Name" required>
                                             <label for="surname">Last Name</label>
                                         </div>
                                     </div>
@@ -181,11 +181,17 @@
                                             <label for="message">Special Request</label>
                                         </div>
                                     </div>----------------------------------------------------->
+                                    <div class="col-12 mb-3">
+                                        <div class="form-floating">
+                                            <input type="email" id="email" name="email" class="form-control" placeholder="Your Email" required>
+                                            <label for="email">Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 mb-3">
+                                        <input type="file" id="myFile" name="resume" class="form-control" required accept=".pdf,.doc,.docx">
+                                    </div>
                                     <div class="col-12">
-                                    <form action="/action_page.php">
-                                           <input type="file" id="myFile" name="filename">
-                                            </form>
-                                        <button class="btn btn-primary w-100 py-3" type="submit">Apply</button>
+                                        <button class="btn btn-primary w-100 py-3" type="submit">Submit Resume</button>
                                     </div>
                                 </div>
                             </form>
