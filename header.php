@@ -90,12 +90,12 @@
                                     <div class="dropdown-menu rounded-0 m-0">
                                         <a href="Holidays.php" class="dropdown-item">Holidays</a>
                                         
-                                        <a href="Short break.php" class="dropdown-item">Short Break</a>
+                                        <a href="Shortbreak.php" class="dropdown-item">Short Break</a>
                                         <a href="Flight.php" class="dropdown-item">Flight</a>
                                         <a href="Hotels.php" class="dropdown-item">Hotel</a>
                                         <a href="Train.php" class="dropdown-item">Train</a>
-                                        <a href="Religious tour.php" class="dropdown-item">Religious Tour</a>
-                                        <a href="Other service.php" class="dropdown-item">Other Services</a>
+                                        <a href="Religioustour.php" class="dropdown-item">Religious Tour</a>
+                                        <a href="Otherservice.php" class="dropdown-item">Other Services</a>
                                         
                                     </div>
                             </div>
