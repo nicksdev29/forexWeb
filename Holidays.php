@@ -29,8 +29,8 @@
                         <div class="col-md-10">
                             <div class="row g-2">
                             <div class="col-md-2">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Select City , Country</label>
+                                            <input type="text" class="form-control" id="name" placeholder="Select City , Country">
+                                            
                                         </div>
                                 <div class="col-md-2">
                                     <div class="date" id="date1" data-target-input="nearest">
@@ -61,12 +61,12 @@
                                 </div>
                             </div>
                         </div>
-                        </div>
+                        
                         
                         <div class="col-md-2">
                             <button class="btn btn-primary w-100">Submit</button>
                             </div>   
-                    
+                            </div>
                 </div>
             </div>
         </div>
