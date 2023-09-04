@@ -28,22 +28,22 @@
                     <div class="row g-2">
                         <div class="col-md-10">
                             <div class="row g-2">
-                            <div class="form-floating"class="col-md-3">
+                            <div class="form-floating"class="col-md-2">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
                                             <label for="name">Select City , Country</label>
                                         </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text" class="form-control datetimepicker-input"
                                             placeholder="Check in" data-target="#date1" data-toggle="datetimepicker" />
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <div class="date" id="date2" data-target-input="nearest">
                                         <input type="text" class="form-control datetimepicker-input" placeholder="Check out" data-target="#date2" data-toggle="datetimepicker"/>
                                     </div>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <select class="form-select">
                                         <option selected>Adult</option>
                                         <option value="1">Adult 1</option>
@@ -51,7 +51,7 @@
                                         <option value="3">Adult 3</option>
                                     </select>
                                 </div>
-                                <div class="col-md-3">
+                                <div class="col-md-2">
                                     <select class="form-select">
                                         <option selected>Child</option>
                                         <option value="1">Child 1</option>
@@ -62,10 +62,11 @@
                             </div>
                         </div>
                         </div>
+                        </div>
                         <div class="col-md-2">
                             <button class="btn btn-primary w-100">Submit</button>
                         
-                    </div>
+                    
                 </div>
             </div>
         </div>
