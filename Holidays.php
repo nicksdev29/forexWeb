@@ -28,6 +28,10 @@
                     <div class="row g-2">
                         <div class="col-md-10">
                             <div class="row g-2">
+                            <div class="form-floating"class="col-md-3">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Your Name</label>
+                                        </div>
                                 <div class="col-md-3">
                                     <div class="date" id="date1" data-target-input="nearest">
                                         <input type="text" class="form-control datetimepicker-input"
