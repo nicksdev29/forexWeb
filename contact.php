@@ -95,7 +95,7 @@
                             </div>
                             <div class="col-md-5">
                                 <h6 class="section-title text-start text-primary text-uppercase">Phone</h6>
-                                <p><i class="fa fa-mobile text-primary me-2"></i>+91 7439841376 / +91 9007917596 /+91 9847253888
+                                <p><i class="fa fa-mobile text-primary me-2"></i>+91 8925316112 / +91 7439841376 / +91 9007917596
 </p>
                             </div>
                              <div class="col-md-2">
@@ -105,13 +105,15 @@
 
                         </div>
                     </div>
-                    <div class="col-md-6 wow fadeIn" data-wow-delay="0.1s">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3888.6353813071223!2d77.57871874527044!3d12.931140545518803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDU1JzUyLjIiTiA3N8KwMzQnNDYuNCJF!5e0!3m2!1sen!2sin!4v1688580084695!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>                    </div>
-                    <div class="col-md-6">
+                    <div class="col-md-5 wow fadeIn" data-wow-delay="0.1s">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124424.66501752844!2d77.56084554294874!3d12.954517013531358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1680948887565!5m2!1sen!2sin" 
+                        width="440px" height="370px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                    <div class="col-md-7">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <form>
                                 <div class="row g-3">
-                                    <div class="col-md-4">
+                                    <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
                                             <label for="name">Your Name</label>
