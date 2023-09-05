@@ -21,7 +21,7 @@
         <!-- Page Header End -->
 
 
-        <!-- Booking Start -->
+        <!-- Booking Start
         <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container">
                 <div class="bg-white shadow" style="padding: 35px;">
@@ -64,7 +64,7 @@
                 </div>
             </div>
         </div>
-        <!-- Booking End -->
+        <!-- Booking End
 
 
         <!-- Booking Start -->
@@ -72,7 +72,7 @@
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title text-center text-primary text-uppercase">Room Booking</h6>
-                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">Luxury Room</span></h1>
+                    <h1 class="mb-5">Book A <span class="text-primary text-uppercase">Train</span></h1>
                 </div>
                 <div class="row g-5">
                     <div class="col-lg-6">
@@ -95,10 +95,36 @@
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <form>
                                 <div class="row g-3">
+                                    <h5>RESERVATION DETAIL</h5>
+                                    <h6>Contact person</h6>
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
+                                            <label for="name">Reservation quota</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Train name or Number</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Journey from</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Journey To</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Pasanger name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
@@ -110,24 +136,32 @@
                                     <div class="col-md-6">
                                         <div class="form-floating date" id="date3" data-target-input="nearest">
                                             <input type="text" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" />
-                                            <label for="checkin">Check In</label>
+                                            <label for="checkin">Departure or Journey Date</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating date" id="date4" data-target-input="nearest">
                                             <input type="text" class="form-control datetimepicker-input" id="checkout" placeholder="Check Out" data-target="#date4" data-toggle="datetimepicker" />
-                                            <label for="checkout">Check Out</label>
+                                            <label for="checkout">Date of Birth</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <select class="form-select" id="select1">
-                                              <option value="1">Adult 1</option>
-                                              <option value="2">Adult 2</option>
-                                              <option value="3">Adult 3</option>
+                                              <option value="1">Lower Berth </option>
+                                              <option value="2">Middle Berth </option>
+                                              <option value="3">Upper Berth</option>
+                                              <option value="1">Side Lower Berth </option>
+                                              <option value="1">Side Upper Berth </option>
                                             </select>
-                                            <label for="select1">Select Adult</label>
+                                            <label for="select1">Berth choice</label>
                                           </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Phone Number</label>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
@@ -139,14 +173,14 @@
                                             <label for="select2">Select Child</label>
                                           </div>
                                     </div>
-                                    <div class="col-12">
+                                    <div class="col-md-6">
                                         <div class="form-floating">
-                                            <select class="form-select" id="select3">
-                                              <option value="1">Room 1</option>
-                                              <option value="2">Room 2</option>
-                                              <option value="3">Room 3</option>
+                                            <select class="form-select" id="select1">
+                                              <option value="1">Adult 1</option>
+                                              <option value="2">Adult 2</option>
+                                              <option value="3">Adult 3</option>
                                             </select>
-                                            <label for="select3">Select A Room</label>
+                                            <label for="select1">Select Adult</label>
                                           </div>
                                     </div>
                                     <div class="col-12">
