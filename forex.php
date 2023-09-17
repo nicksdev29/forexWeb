@@ -151,125 +151,32 @@
                                       <td class="buywidth"><a href="#" class="buy">BUY</a></td>
                                       <td class="buywidth"><a href="#" class="buy">SELL</a></td>
                                   </tr>
-                                  <tr>
-                                      <td class="currencyname">$ USDOLLAR</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">£ BRITISH POUND</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">€ EURO</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">¥ JAPANESE YEN</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">CA$ CANADIAN DOLLAR</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">AU$ AUSTRALIAN DOLLAR</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">SFR SWISS FRANC</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">$ NEWZEALAND DOLLAR</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">RM MALYASIAN RINGGIT</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">S$ SINGAPORE DOLLAR</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">HK$ HONG KONG DOLLAR</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">SR$ SAUDI RIAL</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">د.إ $ UAE DIRHAMS</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">QR$ QATAR RIAL</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">BD$ BAHRAIN DINAR</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">KD$ KUWAIT DINAR</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">E£ EGYPTIAN POUND</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">ر.ع. OMAN RIAL</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                  <tr>
-                                      <td class="currencyname">¥ CHINESE RMB</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                   <tr>
-                                      <td class="currencyname">฿ TBH</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                   <tr>
-                                      <td class="currencyname">Rp Indonesian Rupee</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                                   <tr>
-                                      <td class="currencyname">₱ Philippine paiso</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                  </tr>
-                              </table>
-                              </div>
-                              </div>
-                              </div></div>
-                              </div>
-     </div>
-     </div>
-                              </div></div>
-                              </div>
+                                  <?php
+                                        $queryStr = "select * from currency";
+                                        $res = mysqli_query($con, $queryStr);
+                                        // $currencies = $res->fetch_assoc();
+                                        while( $currency = $res->fetch_assoc()) {
+                                            
+
+                                            ?>
+                                            <tr>
+                                                <td class="currencyname"><?php echo $currency["symbol"];?> <?php echo $currency["currency"];?></td>
+                                                <td class="buywidth"><a href="#" class="buy">BUY</td>
+                                                <td class="buywidth"><a href="#" class="buy">SELL</td>
+                                            </tr>
+                                            <?php
+
+                                        }
+                                        ?>
+                                        </table>
+                                        </div>
+                                        </div>
+                                        </div></div>
+                                        </div>
+                                        </div>
+                                        </div>
+                                        </div></div>
+                                        </div>
                                         <!----<ul class="forex1">
                                             <b>NAME OF CURRENCIES</b>
                                             <li><b>$</b> USDOLLAR </li>
