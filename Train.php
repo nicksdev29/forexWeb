@@ -95,14 +95,32 @@
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
                             <form>
                                 <div class="row g-3">
+                                    <!--<h5>RESERVATION DETAIL</h5>
+                                    <h6>Contact person</h6>
+                                    
+                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <label for="name">Reservation quota</label>
+                                        </div>
+                                    </div>----->
+                                    
+                                    
+                                    
                                     <h5>RESERVATION DETAIL</h5>
                                     <h6>Contact person</h6>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Reservation quota</label>
-                                        </div>
-                                    </div>
+                                    <select class="form-select">
+                                        <div><option selected>Reservation quota</option>
+                                        <option value="1">1st AC</option>
+                                        <option value="2">2nd AC</option>
+                                        <option value="3">3rd AC</option>
+                                        <option value="3">Sleeper</option>
+                                        <option value="3">General</option>
+                                        <option value="3">Tatkal quota</option>
+                                        <option value="3">Senior Citizen</option>
+                                        <option value="3">Other</option>
+                                    </select>
+                                </div></div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
@@ -199,6 +217,8 @@
                 </div>
             </div>
         </div>
+</div>
+
         <!-- Booking End -->
 
 

@@ -58,6 +58,12 @@
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <label for="email">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-floating">
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
                                             <label for="email">Destination City</label>
                                         </div>
                                     </div>
@@ -93,7 +99,7 @@
                                             <label for="select2">Select Child</label>
                                           </div>
                                     </div>
-                                    <div class="col-6">
+                                    <!---<div class="col-6">
                                         <div class="form-floating">
                                             <select class="form-select" id="select3">
                                               <option value="1">Room 1</option>
@@ -112,7 +118,7 @@
                                             </select>
                                             <label for="select3">Select A Class</label>
                                           </div>
-                                    </div>
+                                    </div>---->
                                     <div class="col-12">
                                         <div class="form-floating">
                                             <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>

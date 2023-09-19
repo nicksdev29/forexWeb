@@ -127,7 +127,7 @@
                                             <label for="name">Address</label>
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <!--<div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
                                             <label for="name">City</label>
@@ -144,7 +144,7 @@
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
                                             <label for="name">Postal Cod</label>
                                         </div>
-                                    </div>
+                                    </div>----->
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <select class="form-select" id="select1">
@@ -154,12 +154,12 @@
                                             <label for="select1">Select Flight</label>
                                           </div>
                                     </div>
-                                    <div class="col-md-6">
+                                    <!---<div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
                                             <label for="name">Passport / ID Number</label>
                                         </div>
-                                    </div>
+                                    </div>---->
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <select class="form-select" id="select2">
