@@ -1,4 +1,6 @@
-<?php include 'header.php'?>
+<?php include 'header.php';
+include 'connection.php';?>
+
         <!-- Header End -->
 
 
@@ -47,17 +49,17 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="wow fadeInUp" data-wow-delay="0.2s">
-                            <form>
+                            <form action="#" method="post">
                                 <div class="row g-3">
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
                                             <label for="name">Your Name</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                                            <input type="email" name="email" class="form-control" id="email" placeholder="Your Email">
                                             <label for="email">Your Email</label>
                                         </div>
                                     </div>
@@ -75,61 +77,45 @@
                                     </div>--------->
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <select class="form-select" id="select1">
-                                              <option value="1">Adult 1</option>
-                                              <option value="2">Adult 2</option>
-                                              <option value="3">Adult 3</option>
-                                            </select>
-                                            <label for="select1">Select Adult</label>
-                                          </div>
+                                            <input type="number" name="childcount" class="form-control" id="childcount" placeholder="Number of child">
+                                            <label for="childcount">Number of child</label>
+                                        </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating">
-                                            <select class="form-select" id="select2">
-                                              <option value="1">Child 1</option>
-                                              <option value="2">Child 2</option>
-                                              <option value="3">Child 3</option>
-                                            </select>
-                                            <label for="select2">Select Child</label>
-                                          </div>
+                                            <input type="number" name="adultcount" class="form-control" id="adultcount" placeholder="Number of Adult">
+                                            <label for="adultcount">Number of Adult</label>
+                                        </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6">
                                         <div class="form-floating">
-                                            <select class="form-select" id="select3">
-                                              
-                                              <option value="2">STANDARD</option>
-                                              <option value="3">VIP</option>
-                                            </select>
-                                            <label for="select3">Select A Class</label>
-                                          </div>
+                                            <input type="text"name="selectclass"  class="form-control" id="selectclass" placeholder="Select Class">
+                                            <label for="selectclass">Select Class</label>
+                                        </div>
                                     </div>
-                                    <div class="col-6">
+                                    <div class="col-md-6">
                                         <div class="form-floating">
-                                            <select class="form-select" id="select3">
-                                              
-                                              <option value="2">city1</option>
-                                              <option value="3">city2</option>
-                                            </select>
-                                            <label for="select3">Destination city</label>
-                                          </div>
+                                            <input type="text" name="city1" class="form-control" id="city1" placeholder="Destination city">
+                                            <label for="city1">Destination city</label>
+                                        </div>
                                     </div>
-                                    
+                                                                    
                                     <div class="col-md-6">
                                         <div class="form-floating date" id="date3" data-target-input="nearest">
-                                            <input type="text" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" />
+                                            <input type="date" name="checkin" class="form-control datetimepicker-input" id="checkin" placeholder="Check In" data-target="#date3" data-toggle="datetimepicker" />
                                             <label for="checkin">Check In</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-floating date" id="date4" data-target-input="nearest">
-                                            <input type="text" class="form-control datetimepicker-input" id="checkout" placeholder="Check Out" data-target="#date4" data-toggle="datetimepicker" />
+                                            <input type="date"name="checkout"  class="form-control datetimepicker-input" id="checkout" placeholder="Check Out" data-target="#date4" data-toggle="datetimepicker" />
                                             <label for="checkout">Check Out</label>
                                         </div>
                                     </div>
                                     
                                     <div class="col-12">
                                         <div class="form-floating">
-                                            <textarea class="form-control" placeholder="Special Request" id="message" style="height: 100px"></textarea>
+                                            <textarea class="form-control" name="msg" placeholder="Special Request" id="message" style="height: 100px"></textarea>
                                             <label for="message">Special Request</label>
                                         </div>
                                     </div>
@@ -138,6 +124,48 @@
                                     </div>
                                 </div>
                             </form>
+                            <?php 
+                            $name=$_POST["name"];
+                            $email=$_POST["email"];
+                            $childcount=$_POST["childcount"];
+                            $adultcount=$_POST["adultcount"];
+                            $selectclass=$_POST["selectclass"];
+                            $city1=$_POST["city1"];
+                            $checkin=$_POST["checkin"];
+                            $checkout=$_POST["checkout"];
+                            $msg=$_POST["msg"];
+                            $q="select * from users where email_id='$email'";
+                            $result1=mysqli_query($con,$q);
+                            $user_id=null;
+                            while ($row=$result1->fetch_assoc()){
+                                if( isset($row))
+                                {
+                                    print_r($row);
+                                 $user_id=$row['id'];
+                                }
+                            }
+                            if ($user_id === null)
+                            { 
+                                $password=substr(md5(time()),0,6);
+                                $q2="insert into users (user_role,email_id,full_name,password,status) values ('2','$email','$name','$password','INACTIVE')";
+                                $result2=mysqli_query($con,$q2);
+                                if ($result2 > 0 )
+                                {
+                                 $user_id=mysqli_insert_id($con);
+                                }
+                            }
+                            $q1="insert into hotel_booking (user_id,child_count,adult_count,class,dest_city,check_in,check_out,spcl_request) values ('$user_id','$childcount','$adultcount', '$selectclass','$city1','$checkin','$checkout','$msg')";
+                            $result=mysqli_query($con,$q1);
+                            if ($result > 0 )
+                            {
+                                echo 'booking request submitted';
+                            }
+
+
+                        
+                            
+                            
+                            ?>  
                         </div>
                     </div>
                 </div>
