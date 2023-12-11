@@ -95,12 +95,12 @@
                             </div>
                             <div class="col-md-5">
                                 <h6 class="section-title text-start text-primary text-uppercase">Phone</h6>
-                                <p><i class="fa fa-mobile text-primary me-2"></i>+91 8925316112 / +91 7439841376 / +91 9007917596
+                                <p><i class="fa fa-mobile text-primary me-2"></i> +91 7439841376 <i class="fa fa-mobile text-primary me-2"></i> +91 9007917596
 </p>
                             </div>
                              <div class="col-md-2">
                                 <h6 class="section-title text-start text-primary text-uppercase">Whatsapp/sms</h6>
-                                <p><i class="fab fa-whatsapp-square text-primary me-2"></i>+91 9007917596</p>
+                                <p><i class="fab fa-whatsapp-square text-primary me-2"></i>+91 </p>
                             </div>
 
                         </div>
