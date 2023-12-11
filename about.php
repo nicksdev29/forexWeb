@@ -207,8 +207,8 @@
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <h5 class="fw-bold mb-0">Mr. Supratim Roy</h5>
+                                Director cum Fxchange<br><small>Supratim Roy has more than 28 years of experience in Foreign Exchange. He started his career in Thomas Cook India and later he joined American Experience . He also worked in Hong Kong , Singapore and Australia for 17 years.</small>
                             </div>
                         </div>
                     </div>
@@ -223,8 +223,8 @@
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <h5 class="fw-bold mb-0">Mr. Mithu Roy</h5>
+                                Director<br><small>Mithu Roy has experienced in Travel and Tourism Management. She is also involved in Equity Trading. At SAM FXT she is looking after the travel part.</small>
                             </div>
                         </div>
                     </div>
@@ -239,8 +239,10 @@
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <h5 class="fw-bold mb-0">Mr. Neeraj Dhopte</h5>
+                                IT Advisor<br><small>M.Tech-– Electrical Engineering
+Indian Institute of Technology, Roorkee ( IIT Roorkee) Co-Founder & CTO Translab Technologies, Bangalore
+</small>
                             </div>
                         </div>
                     </div>
@@ -256,13 +258,15 @@
                             </div>
                             <div class="text-center p-4 mt-3">
                                 <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                Designation<small></small>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+    </p>
+</div>
         <!-- Team End -->
 
 
