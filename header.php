@@ -97,7 +97,7 @@
                                         <a href="Flight.php" class="dropdown-item">Flight</a>
                                         <a href="Hotels.php" class="dropdown-item">Hotel</a>
                                         <a href="Train.php" class="dropdown-item">Train</a>
-                                        <a href="Religioustour.php" class="dropdown-item">Religious Tour</a>
+                                        <a href="Religioustour.php" class="dropdown-item">Tour</a>
                                         <a href="Otherservice.php" class="dropdown-item">Other Services</a>
                                         
                                     </div>
