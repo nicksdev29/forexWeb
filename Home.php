@@ -568,8 +568,8 @@ Europe and African Safari etc.</p>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <h5 class="fw-bold mb-0">Mr.Supratim Roy</h5>
+                                <small>Director cum Fxchange</small>
                             </div>
                         </div>
                     </div>
@@ -584,8 +584,8 @@ Europe and African Safari etc.</p>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <h5 class="fw-bold mb-0">Mithu Roy</h5>
+                                <small>Director</small>
                             </div>
                         </div>
                     </div>
@@ -600,8 +600,8 @@ Europe and African Safari etc.</p>
                                 </div>
                             </div>
                             <div class="text-center p-4 mt-3">
-                                <h5 class="fw-bold mb-0">Full Name</h5>
-                                <small>Designation</small>
+                                <h5 class="fw-bold mb-0">Neeraj Dhopte</h5>
+                                <small>IT Advisor</small>
                             </div>
                         </div>
                     </div>
