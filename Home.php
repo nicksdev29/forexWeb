@@ -619,7 +619,7 @@ Indian Institute of Technology, Roorkee ( IIT Roorkee) Co-Founder & CTO Translab
                             </div>
                             <div class="text-center p-4 mt-3">
                                 <h5 class="fw-bold mb-0">Full Name</h5>
-                                <b>Designation<small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </small>
+                                <b>Designation<small>###</small>
                             </div>
                         </div>
                     </div>
