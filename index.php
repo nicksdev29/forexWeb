@@ -1,5 +1,5 @@
 <!--home-box-open-->
-<?php include 'header2.php'?>
+<?php include 'header.php'?>
 <br>
  <div class="container-fluid booking pb-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="#">
