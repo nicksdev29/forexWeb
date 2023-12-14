@@ -53,7 +53,7 @@
                             </div>
                             <div class="h-100 d-inline-flex align-items-center py-2">
                                 <i class="fa fa-phone-square text-primary me-2" aria-hidden="true"></i> 
-                                <p class="mb-0">+91 9007917596</p>
+                                <p class="mb-0"></p>
                             </div>
                             <div class="h-100 d-inline-flex align-items-center py-2 ms-3"> 
                                 <p class="mb-0"><strong>RBI Approved License:</strong> BLR-FFMC-0247-2023</p>
