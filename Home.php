@@ -550,7 +550,7 @@ Europe and African Safari etc.</p>
 
 
         <!-- Team Start -->
-        <div class="container-xxl py-5">
+        <!-- <div class="container-xxl py-5">
             <div class="container">
                 <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="section-title text-center text-primary text-uppercase">Our Team</h6>
@@ -606,7 +606,7 @@ Indian Institute of Technology, Roorkee ( IIT Roorkee) Co-Founder & CTO Translab
 </small>
                             </div>
                             </div>
-                            </div>
+                            </div> -->
                     <!-- <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="rounded shadow overflow-hidden">
                             <div class="position-relative">
