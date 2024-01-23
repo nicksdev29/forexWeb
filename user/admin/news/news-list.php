@@ -3,7 +3,7 @@
 <body>
 	<div class="wrapper">
 		<div class="sidebar-cta">
-			<?php include $adminRoot.'usersidemenu.php'?>
+			<?php include( '../usersidemenu.php'); ?>
 		</div>
 
 		<div class="main">
@@ -81,7 +81,7 @@
 					</div>
 				</div>
 			</main>
-			<?php include ($adminRoot.'footer.php'); ?>
+			<?php include ('../footer.php'); ?>
 		</div>
 	</div>
 

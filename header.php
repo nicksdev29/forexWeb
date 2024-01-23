@@ -25,7 +25,8 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
 </head>
-
+<?php include 'env.php'?>
+<?php include 'connection.php'?>
 <body>
     <div class="container-xxl bg-white p-0">
         <!-- Spinner Start -->
