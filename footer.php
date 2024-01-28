@@ -44,6 +44,7 @@
                             <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=100091760992779"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UCmqpUJM-c7YNosh90GXjnvw"><i class="fab fa-youtube"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
                         </div>
 
                     </div>
