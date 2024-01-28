@@ -40,9 +40,9 @@
                         <p><i class="fa fa-phone me-3" aria-hidden="true"></i>+91 9847253888</p>
                         <p class="mb-2"><i class="fa fa-envelope me-3"></i>INFO@SAMFXT.IN</p>
                         <div class="d-flex pt-2">
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://twitter.com/Samfxt"><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/profile.php?id=100091760992779"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UCmqpUJM-c7YNosh90GXjnvw"><i class="fab fa-youtube"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                         </div>
 
