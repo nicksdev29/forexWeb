@@ -44,7 +44,7 @@
 									<h5 class="card-title mb-0">Banner place</h5>
 								</div>
 								<div class="card-body">
-									<select class="form-control" required
+									<select class="form-select" required
 										name="banner_place">
 										<option value="">Select Banner Place</option>
 										<option value="HOME_SLIDER">Home Page Slider</option>

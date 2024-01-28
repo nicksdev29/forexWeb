@@ -1,8 +1,8 @@
 <?php
 $host="localhost:3306";
 $user="root";
- $pass="c+Hc9_G%=sGyY)xy";
- $db="samfxt_db";
+$pass="c+Hc9_G%=sGyY)xy";
+$db="samfxt_db";
 
 // $pass="";
 // $db="samfxt";
