@@ -537,12 +537,13 @@ border-bottom: solid .5px orange;
 font-size: 8px; 
 }
 .buy {
-background-color: #FEA116;
-width: 100%;
-padding-left: 20%;
-padding-right: 20%;
-color: white;
-border: solid 2px white;
+    background-color: #FEA116;
+    width: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: white;
+    border: solid 2px white;
+    display: block;
 }
 .buy:hover {
 background-color: #ccc;

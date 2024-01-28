@@ -70,61 +70,22 @@
 	</a>
 			</li>
 
-
-			<!-------------<li class="sidebar-item">
-				<a class="sidebar-link" href="icons-feather.php">
-		<i class="align-middle" data-feather="dollar-sign"></i> <span class="align-middle">Transaction</span>
-	</a>
-			</li>------------------------>
 			<li class="sidebar-header">
-				Tools & Components
+				Banner
 			</li>
 
 			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>ui-buttons.php">
-		<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">My Wallet</span>
+				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>banners-ads/banners-ads-list.php">
+		<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Banners List</span>
 	</a>
 			</li>
 
 			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>ui-forms.php">
-		<i class="align-middle" data-feather="check-square"></i> <span class="align-middle">Add New</span>
+				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>banners-ads/add-banners-ads.php">
+		<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Add Banners</span>
 	</a>
 			</li>
 
-			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>ui-cards.php">
-		<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Cards</span>
-	</a>
-			</li>
-
-			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>ui-typography.php">
-		<i class="align-middle" data-feather="align-left"></i> <span class="align-middle">History</span>
-	</a>
-			</li>
-
-			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>icons-feather.php">
-		<i class="align-middle" data-feather="dollar-sign"></i> <span class="align-middle">Transaction</span>
-	</a>
-			</li>
-
-			<li class="sidebar-header">
-				Analytics & Location
-			</li>
-
-			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>charts-chartjs.php">
-		<i class="align-middle" data-feather="bar-chart-2"></i> <span class="align-middle">Charts</span>
-	</a>
-			</li>
-
-			<li class="sidebar-item">
-				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>maps-google.php">
-		<i class="align-middle" data-feather="map"></i> <span class="align-middle">Maps</span>
-	</a>
-			</li>
 		</ul>
 		
 	</div>

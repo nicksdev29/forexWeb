@@ -144,30 +144,30 @@
                                     <div class="date" id="date1" data-target-input="nearest"> 
                                         <h4 class="section-title text-start text-primary text-uppercase mb-4">CURRENCY</h4>
 
-                                        <p align="center"> 
+                                        <p align="center"></p>
                                         <table width="1024px">
-                                  <tr>
-                                      <td class="currencyname">NAME OF CURRENCIES</td>
-                                      <td class="buywidth"><a href="#" class="buy">BUY</a></td>
-                                      <td class="buywidth"><a href="#" class="buy">SELL</a></td>
-                                  </tr>
-                                  <?php
-                                        $queryStr = "select * from currency";
-                                        $res = mysqli_query($con, $queryStr);
-                                        // $currencies = $res->fetch_assoc();
-                                        while( $currency = $res->fetch_assoc()) {
-                                            
-
-                                            ?>
-                                            <tr>
-                                                <td class="currencyname"><?php echo $currency["symbol"];?> <?php echo $currency["currency"];?></td>
-                                                <td class="buywidth"><a href="#" class="buy">BUY</td>
-                                                <td class="buywidth"><a href="#" class="buy">SELL</td>
-                                            </tr>
+                                                <tr>
+                                                    <td class="currencyname"><strong>NAME OF CURRENCIES</strong></td>
+                                                    <td class="buywidth"><strong>BUY</strong></td>
+                                                    <td class="buywidth"><strong>SELL</strong></td>
+                                                </tr>
                                             <?php
+                                                    $queryStr = "select * from currency";
+                                                    $res = mysqli_query($con, $queryStr);
+                                                    // $currencies = $res->fetch_assoc();
+                                                    while( $currency = $res->fetch_assoc()) {
+                                                        
 
-                                        }
-                                        ?>
+                                                        ?>
+                                                        <tr>
+                                                            <td class="currencyname"><?php echo $currency["symbol"];?> <?php echo $currency["currency"];?></td>
+                                                            <td class="buywidth"><a href="#" class="buy"> <?php echo $currency["symbol"].' '.$currency["buy_rate"];?> </td>
+                                                            <td class="buywidth"><a href="#" class="buy"> <?php echo $currency["symbol"].' '.$currency["sell_rate"];?> </td>
+                                                        </tr>
+                                                        <?php
+
+                                                    }
+                                            ?>
                                         </table>
                                         </div>
                                         </div>
