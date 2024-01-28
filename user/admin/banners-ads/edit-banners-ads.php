@@ -105,7 +105,6 @@
 									try {
 										$result = mysqli_query($con, $query);
 										if( isset($result) && $result > 0 ) {
-											die($result);
 										?>
 											<script>window.location.href='./banners-ads-list.php';</script>
 										<?php
