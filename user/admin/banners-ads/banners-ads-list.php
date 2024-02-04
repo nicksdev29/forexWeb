@@ -27,7 +27,6 @@
                                                 <th>#</th>
                                                 <th>Banner Name</th>
                                                 <th>Banner Place</th>
-                                                <th>Content</th>
                                                 <th>Visibility</th>
                                                 <th>Actions</th>
                                             </tr>
@@ -49,12 +48,11 @@
                                                     <td><?php echo ++$count; ?></td>
                                                     <td><?php echo $bannersList['banner_name']; ?></td>
                                                     <td><?php echo $bannersList['banner_place']; ?></td>
-                                                    <td><?php echo $bannersList['content']; ?></td>
                                                     <td><?php echo $bannersList['visibility']; ?></td>
                                                     <td>
                                                         <div class="actions-group">
-                                                            <a class="btn btn-primary" href="./edit-banners.php?bannersId=<?php echo $bannersList['id']; ?>">Edit</a>
-                                                            <a class="btn btn-danger" href="./del-banners.php?banners=<?php echo $bannersList['id'] ?>">Delete</a>
+                                                            <a class="btn btn-primary" href="./edit-banners-ads.php?bannersId=<?php echo $bannersList['id']; ?>">Edit</a>
+                                                            <a class="btn btn-danger" href="./del-banners-ads.php?bannersId=<?php echo $bannersList['id'] ?>">Delete</a>
                                                         </div>
                                                         <div class="loader" id="buy-sell-loader<?php echo $bannersList['id']; ?>" style="display: none;position: absolute;left: 0;margin-top: -6vh;height: 6vh;width: 100%;align-items: center;justify-content: center;background-color: #ffffffd6;z-index: 99;">
                                                             <div class="spinner-border" role="status">

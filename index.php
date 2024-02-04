@@ -38,6 +38,18 @@
                             </div>
                         </div>
                     </div>
+
+                    <?php
+                        $query = "select * from banners where `banner_place` = 'HOME_SLIDER' and `visibility`='VISIBLE' order by created_at";
+                        $result = mysqli_query($con, $query);
+                        while( $bannersList = $result->fetch_assoc() ) {
+                    ?>
+                            <div class="carousel-item">
+                                    <?php echo $bannersList['content']; ?>
+                            </div>
+                    <?php
+                        }
+                    ?>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel"
                     data-bs-slide="prev">

@@ -6,17 +6,30 @@ include 'connection.php';?>
         <!-- Page Header Start -->
         <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousel-1.jpg);">
             <div class="container-fluid page-header-inner py-5">
-                <div class="container text-center pb-5">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown">Rooms & Appartment</h1>
-                    <nav aria-label="breadcrumb">
-                        <ol class="breadcrumb justify-content-center text-uppercase">
-                          <li class="text-white">We will take care of your hotels when you are planning to go for an ...
+                
+            <?php
+                        $query = "select * from banners where `banner_place` = 'TRAVELS_HEADER' and `visibility`='VISIBLE' order by created_at desc";
+                        $result = mysqli_query($con, $query);
+                ?>
+                        <div class="container text-center pb-5">
+                            
+                                <?php if( $result->fetch_assoc() !== null && count( $result->fetch_assoc() ) > 0 ) echo $result->fetch_assoc()['content']; else {
+                                    ?>
+
+                                        <div class="container text-center pb-5">
+                                            <h1 class="display-3 text-white mb-3 animated slideInDown">Rooms & Appartment</h1>
+                                            <nav aria-label="breadcrumb">
+                                                <ol class="breadcrumb justify-content-center text-uppercase">
+                                                    <li class="text-white">We will take care of your hotels when you are planning to go for an ...
                             <br>official trip or leisure holidays . We book all star hotels and non star hotels.</li>
-                            <!--<li class="breadcrumb-item"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page">Our Team</li>---->
-                        </ol>
-                    </nav>
-                </div>
+                                                    <!--<li class="breadcrumb-item"><a href="#">Pages</a></li>
+                                                    <li class="breadcrumb-item text-white active" aria-current="page">Booking</li>----->
+                                                </ol>
+                                            </nav>
+                                        </div>
+                                    <?php
+                                } ?>
+                        </div>
             </div>
         </div>
         <!-- Page Header End -->
@@ -140,7 +153,6 @@ include 'connection.php';?>
                             while ($row=$result1->fetch_assoc()){
                                 if( isset($row))
                                 {
-                                    print_r($row);
                                  $user_id=$row['id'];
                                 }
 

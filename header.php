@@ -80,7 +80,7 @@
                         </button>
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <div class="navbar-nav mr-auto py-0">
-                                <a href="Home.php" class="nav-item nav-link">Home</a>
+                                <a href="index.php" class="nav-item nav-link">Home</a>
                                 <div class="nav-item dropdown">
                                     <a href="about.php" class="nav-item nav-link">About us</a>
                                     <!--<div class="dropdown-menu rounded-0 m-0">
