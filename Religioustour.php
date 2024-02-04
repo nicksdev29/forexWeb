@@ -3,20 +3,20 @@
 
 
         <!-- Page Header Start -->
-        <!-- <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousal-11.jpg);">
+        <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/carousal-11.jpg);">
             <div class="container-fluid page-header-inner py-5">
                 <div class="container text-center pb-5">
-                    <h3 class="display-3 text-white mb-3 animated slideInDown">DOMESTIC  </h3>
+                    <!-- <h3 class="display-3 text-white mb-3 animated slideInDown">DOMESTIC  </h3>
                      <h3 class="text-primary text-uppercase mb-3"> AND </h3>
-                     <h3 class="display-3 text-white mb-3 animated slideInDown"> INTERNATIONAL TOUR</h3>
+                     <h3 class="display-3 text-white mb-3 animated slideInDown"> INTERNATIONAL TOUR</h3> -->
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
-                            <li class="text-white">We will book your flight tickets for your Travel anywhere both ... Domestic and International</li>
-                            <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                            <!-- <li class="text-white">We will book your flight tickets for your Travel anywhere both ... Domestic and International</li> -->
+                            <!--<li class="breadcrumb-item"><a href="#">Pages</a></li>
                             <li class="breadcrumb-item text-white active" aria-current="page">Booking</li>----->
                         </ol>
                     </nav>
-                </div> 
+                </div>
                 <?php
                         $query = "select * from banners where `banner_place` = 'TRAVELS_HEADER' and `visibility`='VISIBLE' order by created_at desc";
                         $result = mysqli_query($con, $query);
