@@ -204,8 +204,8 @@ Transfer To Airport for HCM/Hanoi flight and at Ho Chi Minh / Hanoi driver cum g
                                     </div>
                                     <div class="col-6">
                                         <div class="form-floating">
-                                            <input type="text" class="form-control" id="Vage or Non Vage" placeholder="Vage or Non Vage">
-                                            <label for="Vage or Non Vage">Vage or Non Vage</label>
+                                            <input type="text" class="form-control" id="veg or Non veg" placeholder="veg or Non veg">
+                                            <label for="veg or Non veg">veg or Non veg</label>
                                         </div>
                                     </div>
                                     <div class="col-6">
