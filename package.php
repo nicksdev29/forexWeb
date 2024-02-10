@@ -232,9 +232,9 @@ Transfer To Airport for HCM/Hanoi flight and at Ho Chi Minh / Hanoi driver cum g
                                             <label for="Hotel Rating">Select Hotel Category</label> -->
                                             <select>
                                             <option value="4star">Select Hotel Category</option>
-                                                <option value="4star">4star</option>
-                                                <option value="3star">3star</option>
-                                                <option value="5star">5star</option>
+                                                <option value="4star">5star</option>
+                                                <option value="3star">4star</option>
+                                                <option value="5star">3star</option>
                                                 <option value="Economy class">Economy class</option>
                                             </select>
                                           </div>
