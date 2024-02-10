@@ -34,7 +34,7 @@
                                     <div class="col-md-6">
                                         <div class="form-floating">
                                             <input type="text" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">traveling in km/h</label>
+                                            <label for="name">Estimated Distance in km</label>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
