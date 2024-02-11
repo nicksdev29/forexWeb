@@ -267,3 +267,4 @@
     <script src="https://unpkg.com/grapesjs-tui-image-editor@0.1.3"></script>
     <script src="https://unpkg.com/grapesjs-typed@1.0.5"></script>
     <script src="https://unpkg.com/grapesjs-style-bg@2.0.1"></script>
+	<script src="https://cdn.ckeditor.com/ckeditor5/41.1.0/classic/ckeditor.js"></script>

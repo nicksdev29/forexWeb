@@ -98,7 +98,7 @@
 										print_r($result);
 										if( isset($result) && $result > 0 ) {
 										?>
-											<!-- <script>window.location.href='./banners-ads-list.php';</script> -->
+											<script>window.location.href='./banners-ads-list.php';</script>
 										<?php
 										} else {
 											printf("error: %s\n", mysqli_error($con));
@@ -193,10 +193,8 @@
 				});
 				$('#attachForm').submit((e) => {
 					let content =`<style>` + editor.getCss() + `</style>`;
-					// content +=`<style>` + editor.getCss() + `</style>`;
 					let htmlContent = $('#banner-content-final').html( editor.getHtml() );
 					content += `</br>`+$(htmlContent).html();
-					console.log('editor content: ', content);
 					$("<input />").attr("type", "hidden")
 						.attr("name", "content")
 						.attr("value", content)
