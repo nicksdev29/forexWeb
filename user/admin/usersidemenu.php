@@ -86,6 +86,21 @@
 	</a>
 			</li>
 
+			<li class="sidebar-header">
+				Package
+			</li>
+
+			<li class="sidebar-item">
+				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>packages/packages-list.php">
+		<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Packages List</span>
+	</a>
+			</li>
+
+			<li class="sidebar-item">
+				<a class="sidebar-link" href="<?php echo $adminBaseUrl; ?>packages/add-package.php">
+		<i class="align-middle" data-feather="credit-card"></i> <span class="align-middle">Add Package</span>
+	</a>
+			</li>
 		</ul>
 		
 	</div>
