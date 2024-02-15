@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title>SAM FOREIGN EXCHANGE AND TRAVELS SERVICES</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="" name="Flight, Group tavel, Hotel, Tour, Currency Exchange, Customized Tour, flight Reservation, Flight Reservation, Flight Ticket, Foriegn Exchange, luxury buses  ">
+    <meta content="" name="
+SAM FXT – book your tickets, hotels and tours from us. we give you all type of pakages: budget friendly or luxurious tours according to your choice">
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
     <!-- Google Web Fonts -->
