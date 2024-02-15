@@ -125,6 +125,7 @@ SAM FXT – Book your tickets, hotels and tours from us. we give you all type of
                                 <a href="career.php" class="nav-item nav-link">Career</a>
                                 <a href="login.php" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Login | Registration<i class="fa fa-arrow-right ms-3"></i></a>
                         </div>
+                        </div>
                     </nav>
                 </div>
             </div>
