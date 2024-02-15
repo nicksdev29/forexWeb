@@ -70,8 +70,9 @@ SAM FXT – Book your tickets, hotels and tours from us. we give you all type of
                                 <a class="" href=""><i class="fab fa-youtube"></i></a>
 
                             </div>---------->
+                            </div>
+                            </div>
                         </div>
-                    
                     <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                         <a href="index.php" class="navbar-brand d-block d-lg-none">
                             <h1 class="m-0 text-primary text-uppercase animate__bounce">SAM FXT</h1>
@@ -129,5 +130,4 @@ SAM FXT – Book your tickets, hotels and tours from us. we give you all type of
                     </nav>
                 </div>
             </div>
-        
-       
+            </div>
