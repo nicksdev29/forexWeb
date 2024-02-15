@@ -6,7 +6,7 @@
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="Flight, Group tavel, Hotel, Tour, Currency Exchange, Customized Tour, flight Reservation, Flight Reservation, Flight Ticket, Foriegn Exchange, luxury buses  ">
     <meta content="" name="
-SAM FXT – Book your tickets, hotels and tours from us. we give you all type of pakages: budget friendly or luxurious tours according to your choice">
+SAM FXT – book your tickets, hotels and tours from us. we give you all type of pakages: budget friendly or luxurious tours according to your choice">
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
     <!-- Google Web Fonts -->
@@ -69,9 +69,9 @@ SAM FXT – Book your tickets, hotels and tours from us. we give you all type of
                                 <a class="me-3" href=""><i class="fab fa-instagram"></i></a>
                                 <a class="" href=""><i class="fab fa-youtube"></i></a>
 
-                            </div>---------->
-                            
-                        </div>
+                            </div>
+                        </div>-->
+                    </div>
                     <nav class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                         <a href="index.php" class="navbar-brand d-block d-lg-none">
                             <h1 class="m-0 text-primary text-uppercase animate__bounce">SAM FXT</h1>
@@ -125,9 +125,7 @@ SAM FXT – Book your tickets, hotels and tours from us. we give you all type of
                                 <a href="career.php" class="nav-item nav-link">Career</a>
                                 <a href="login.php" class="btn btn-primary rounded-0 py-4 px-md-5 d-none d-lg-block">Login | Registration<i class="fa fa-arrow-right ms-3"></i></a>
                         </div>
-                        
                     </nav>
                 </div>
             </div>
-            </div>
-            </div>
+        </div>

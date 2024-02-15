@@ -86,7 +86,7 @@
 
         <ul class="accordion" data-responsive-accordion-tabs="accordion large-tabs">
         <?php
-            $contents = json_decode($package['content_json']);
+            $contents = json_decode( $package['content_json'] );
             $count = 0;
             foreach ($contents as $key => $value) {
                 foreach ($value as $objKey => $objValue) {
