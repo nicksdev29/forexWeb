@@ -179,7 +179,7 @@
                             <div class="col-6 text-start">
                                 <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.7s" src="img/tr4.png">
                             </div>
-                        </div>
+                 `       </div>
                     </div>
                 </div>
             </div>
