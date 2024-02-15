@@ -129,4 +129,5 @@ SAM FXT – Book your tickets, hotels and tours from us. we give you all type of
                     </nav>
                 </div>
             </div>
-            
+            </div>
+            </div>
