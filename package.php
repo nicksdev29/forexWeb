@@ -16,7 +16,7 @@
 </head>
 
 <?php
-            
+            $content = null;
             $queryPackage = "select * from packages where `id` = ".$_REQUEST['package'];
             $resultP = mysqli_query($con, $queryPackage);
             while( $package = $resultP->fetch_assoc() ) {

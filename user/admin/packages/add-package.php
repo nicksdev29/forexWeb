@@ -41,6 +41,35 @@
 						<div class="col-12 col-lg-12">
 							<div class="card">
 								<div class="card-header">
+									<h5 class="card-title mb-0">Package Featured Image</h5>
+								</div>
+								<div class="card-body">
+
+								<div class="row">
+									<div class="col-6 col-lg-6">
+										<label for="attachment">Select a file:</label>
+										<input type="file" id="img_attachment" name="img_attachment" accept=".jpg,.jpeg,.png">
+
+										<br><br>
+
+										<input type="button" value="Upload" onclick="uploadPackageImg();">
+									</div>
+									<div class="col-6 col-lg-6">
+										<img src="" id="uploadedFile" target="_blank" width="100%" />
+									</div>
+								</div>
+									<input type="hidden" name="uploadedFileUrl" id="uploadedFileUrl" />
+									<div class="loader" id="media-upload-loader" style="display:none;position: absolute;top: 0;left: 0;height: 100%;width: 100%;align-items: center;justify-content: center;background-color: #ffffffd6;z-index: 99;">
+										<div class="spinner-border" role="status">
+											<span class="sr-only">Loading...</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-lg-12">
+							<div class="card">
+								<div class="card-header">
 									<h5 class="card-title mb-0">Description</h5>
 								</div>
 								<div class="card-body">
@@ -78,15 +107,16 @@
 								if( isset($_POST) && isset($_POST['package_title']) ) {
 									$package_title=mysqli_real_escape_string($con,$_POST['package_title']);
 									$description=mysqli_real_escape_string($con,$_POST['description']);
+									$featuredImg=mysqli_real_escape_string($con,$_POST['uploadedFileUrl']);
 									$content_json_arr = [];
 									foreach ($_POST as $key => $value) {
-										if(($key !== 'package_title') && $key !== 'description') {
+										if(($key !== 'package_title') && ($key !== 'description') && ($key !== 'uploadedFileUrl')) {
 											$arr_key = array( $key => $value );
 											array_push( $content_json_arr, $arr_key );
 										}
 									}
-									$content_json = json_encode($content_json_arr, JSON_UNESCAPED_SLASHES);
-									$query = "INSERT INTO `packages` (`package_title`, `description`, `content_json`, `created_at`, `created_by`) VALUES ( '{$package_title}', '{$description}', '{$content_json}', '".date('Y-m-d H:i:s')."', 1 )";
+									$content_json = mysqli_real_escape_string($con, json_encode($content_json_arr, JSON_UNESCAPED_SLASHES) );
+									$query = "INSERT INTO `packages` (`package_title`, `description`,`feature_img_url`, `content_json`, `created_at`, `created_by`) VALUES ( '{$package_title}', '{$description}', '{$featuredImg}', '{$content_json}', '".date('Y-m-d H:i:s')."', 1 )";
 									try {
 										$result = mysqli_query($con, $query);
 										if( isset($result) && $result > 0 ) {

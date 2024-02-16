@@ -115,12 +115,13 @@
                             <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                                 <div class="room-item shadow rounded overflow-hidden">
                                     <div class="position-relative">
-                                        <img class="img-fluid" src="img/vietnam1.jpg" alt="">
+                                        <!-- <img class="img-fluid" src="img/vietnam1.jpg" alt=""> -->
+                                        <img class="img-fluid" src="<?php echo $package['feature_img_url']; ?>" alt="<?php echo $package['feature_img_url']; ?>">
                                         <small class="position-absolute start-0 top-100 translate-middle-y bg-primary text-white rounded py-1 px-3 ms-4">5 NIGHT - 6 DAYS</small>
                                     </div>
                                     <div class="p-4 mt-2">
                                         <div class="d-flex justify-content-between mb-3">
-                                            <h5 class="mb-0"><?php echo $package['package_title'] ?></h5>
+                                            <h5 class="mb-0"><?php echo $package['package_title']; ?></h5>
                                             <!-- <div class="ps-2">
                                                 <small class="fa fa-star text-primary"></small>
                                                 <small class="fa fa-star text-primary"></small>
@@ -135,7 +136,7 @@
                                             <!-- <small><i class="fa fa-wifi text-primary me-2"></i>Wifi</small> -->
                                         </div>
                                         <p class="text-body mb-3">
-                                            <?php echo $package['description'] ?>
+                                            <?php echo $package['description']; ?>
                                         </p>
                                         <div class="d-flex justify-content-between">
                                             <a class="btn btn-sm btn-primary rounded py-2 px-4" href="package.php?package=<?php echo $package['id'] ?>">View Detail</a>
