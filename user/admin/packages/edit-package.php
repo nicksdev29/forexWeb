@@ -102,14 +102,14 @@
 											$count = 0;
 											foreach ($contents as $key => $value) {
 												foreach ($value as $objKey => $objValue) {
-													if(str_contains($objKey, 'title')) {
+													if(strpos($objKey, 'title') > -1) {
 														?>
 														<div class="content">
 															<h4>Section - <?php echo ++$count; ?></h4>
 															<input type="text" class="form-control content-title" placeholder="Content Title"
 																name="<?php echo $objKey; ?>" value="<?php echo $objValue; ?>">
 														<?php
-													} else if(str_contains($objKey, 'package') && $count === 0) {
+													} else if((strpos($objKey, 'package') > -1) && $count === 0) {
 														?>
 															<textarea class="form-control section-content" placeholder="Edit Package Content"
 																name="<?php echo $objKey; ?>" id="<?php echo $objKey; ?>">
@@ -117,7 +117,7 @@
 															</textarea>
 														</div>
 														<?php
-													} else if(str_contains($objKey, 'package') && $count > 0) {
+													} else if((strpos($objKey, 'package') > -1) && $count > 0) {
 														?>
 															<textarea class="form-control section-content" placeholder="Edit Package Content"
 																name="<?php echo $objKey; ?>" id="<?php echo $objKey; ?>">
