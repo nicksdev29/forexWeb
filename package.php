@@ -88,7 +88,6 @@
         <?php
             $contents = json_decode( $package['content_json'] );
             $count = 0;
-            print_r($contents);
             foreach ($contents as $key => $value) {
                 foreach ($value as $objKey => $objValue) {
                     if(strpos($objKey, 'title') > -1) {
