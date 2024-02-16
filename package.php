@@ -88,16 +88,17 @@
         <?php
             $contents = json_decode( $package['content_json'] );
             $count = 0;
+            print_r($contents);
             foreach ($contents as $key => $value) {
                 foreach ($value as $objKey => $objValue) {
-                    if(str_contains($objKey, 'title')) {
+                    if(strpos($objKey, 'title') > -1) {
                     ?>
                     <li class="accordion-item <?php echo ($count === 0) ? 'is-active': ''; ?>" data-accordion-item>
                         <a href="#" class="text-primary text-uppercase"> 
                             <h6><b><?php echo $objValue; ?></b></h6> 
                         </a>
                     <?php
-                    } else if(str_contains($objKey, 'package')) {
+                    } else if(strpos($objKey, 'package') > -1) {
                     ?>
                         <div class="accordion-content"
                             data-tab-content>
