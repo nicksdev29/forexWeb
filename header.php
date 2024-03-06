@@ -36,6 +36,7 @@ SAM FXT – book your tickets, hotels and tours from us. we give you all type of
                 <span class="sr-only">Loading...</span>
             </div>
         </div>
+</div>
         <!-- Spinner End -->
 
         <!-- Header Start -->
