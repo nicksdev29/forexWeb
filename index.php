@@ -122,13 +122,10 @@
                                 <div class="date" id="date1" data-target-input="nearest"> 
                                     <h4 class="mb-5" align="center">CURRENCY <span class="text-primary text-uppercase">Notes </span></h4>
                                     <p align="center"> <img src="img/pngegg (17).png" alt="currency note" width="60%" ></p>
-                                    <p align="center"><b> </b><h1 align="center">FOREIGN EXCHCANGE
+                                    <p align="center"><b> </b><h1 align="center">FOREIGN EXCHANGE
                                         
                                     </h1>
-                                    <p align="center">Competitive rate for popular currenciesw hen you buy or sell.
-                                                       Our spreads are low , no commission and
-                                                        no hidden charges.
-                                                        Best rate for Corporate Sector &amp; group
+                                    <p align="center">Competitive rate for popular currencies when you buy or sell. Our spreads are low , no commission and no hidden charges. Best rate for Corporate Sector &amp; group
                                                         tours.
                                     </p>
                                     <p align="center">
@@ -177,7 +174,48 @@ Europe and African Safari etc.</p>
                 </div>
             </div>
 
-
+            <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="owl-carousel testimonial-carousel py-5">
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <img src="img/team-11.jpg">
+                        <p>Text</p>
+                        <div class="d-flex align-items-center">
+                            <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;"> -->
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">VIETNAM MEMORIES</h6>
+                                <!-- <small>Samfxt user</small> -->
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <img src="img/team-12.jpg">
+                        <p>Text</p>
+                        <div class="d-flex align-items-center">
+                            <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
+                             --><div class="ps-3">
+                                <h6 class="fw-bold mb-1">SRI LANKA</h6>
+                                <!-- <small>Profession</small> -->
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <img src="img/team-13.jpg">
+                        <p>Text</p>
+                        <div class="d-flex align-items-center">
+                            <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
+                            <div class="ps-3"> -->
+                                <h6 class="fw-bold mb-1">GOA</h6>
+                                <!-- <small>Profession</small> -->
+                            </div>
+                        </div>
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                    </div>
+                                    </div>
+            </div>
+        </div>
 <!--home-box-close-->
 
         <!-- About Start 
