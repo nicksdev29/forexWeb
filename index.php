@@ -213,7 +213,20 @@ Europe and African Safari etc.</p>
                         </div>
                         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                     </div>
-                                    </div>
+
+                    <?php
+                        $queryPackage = "select * from packages order by created_at desc";
+                        $resultP = mysqli_query($con, $queryPackage);
+                        while( $package = $resultP->fetch_assoc() ) {
+                    ?>
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <img src="<?php echo $package['feature_img_url']; ?>" alt="<?php echo $package['feature_img_url']; ?>">
+                        <div class="ps-3">
+                            <h6 class="fw-bold mb-1"><?php echo $package['package_title']; ?></h6>
+                        </div>
+                    </div>
+                    <?php } ?>
+                </div>
             </div>
         </div>
 <!--home-box-close-->
