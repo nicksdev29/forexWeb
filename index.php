@@ -194,7 +194,8 @@ Europe and African Safari etc.</p>
                         <p>Text</p>
                         <div class="d-flex align-items-center">
                             <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
-                             --><div class="ps-3">
+                             -->
+                            <div class="ps-3">
                                 <h6 class="fw-bold mb-1">SRI LANKA</h6>
                                 <!-- <small>Profession</small> -->
                             </div>
@@ -205,8 +206,8 @@ Europe and African Safari etc.</p>
                         <img src="img/team-13.jpg">
                         <p>Text</p>
                         <div class="d-flex align-items-center">
-                            <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;">
-                            <div class="ps-3"> -->
+                            <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;"> -->
+                            <div class="ps-3">
                                 <h6 class="fw-bold mb-1">GOA</h6>
                                 <!-- <small>Profession</small> -->
                             </div>
@@ -219,12 +220,15 @@ Europe and African Safari etc.</p>
                         $resultP = mysqli_query($con, $queryPackage);
                         while( $package = $resultP->fetch_assoc() ) {
                     ?>
-                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                        <img src="<?php echo $package['feature_img_url']; ?>" alt="<?php echo $package['feature_img_url']; ?>">
-                        <div class="ps-3">
-                            <h6 class="fw-bold mb-1"><?php echo $package['package_title']; ?></h6>
+                        <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                            <img src="<?php echo $package['feature_img_url']; ?>" alt="<?php echo $package['feature_img_url']; ?>" />
+                            <div class="d-flex align-items-center">
+                                <div class="ps-3">
+                                    <h6 class="fw-bold mb-1"><?php echo $package['package_title']; ?></h6>
+                                </div>
+                            </div>
+                            <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                         </div>
-                    </div>
                     <?php } ?>
                 </div>
             </div>
