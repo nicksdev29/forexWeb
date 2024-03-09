@@ -185,8 +185,8 @@ Europe and African Safari etc.</p>
                             <div class="ps-3">
                                  <small>Samfxt user</small> 
                                  <h6 class="fw-bold mb-1">VIETNAM MEMORIES</h6>
-                            </div>
-                        </div>-->
+                            </div>-->
+                        </div>
                         <!-- <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i> -->
                     </div>
                     <div class="testimonial-item">
