@@ -177,9 +177,9 @@ Europe and African Safari etc.</p>
             <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
             <div class="container">
                 <div class="owl-carousel testimonial-carousel py-5">
-                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                    <div class="testimonial-item ">
                         <!-- <img src="img/team-11.jpg"> -->
-                        <p>Text</p>
+                        <!-- <p>Text</p> -->
                         <div class="d-flex align-items-center">
                             <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;"> -->
                             <div class="ps-3">
@@ -189,7 +189,7 @@ Europe and African Safari etc.</p>
                         </div>
                         <!-- <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i> -->
                     </div>
-                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                    <div class="testimonial-item">
                         <!-- <img src="img/team-12.jpg"> -->
                         <!-- <p>Text</p> -->
                         <div class="d-flex align-items-center">
