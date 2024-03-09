@@ -176,17 +176,17 @@ Europe and African Safari etc.</p>
 
             <div class="container-xxl testimonial my-5 py-5 bg-dark wow zoomIn" data-wow-delay="0.1s">
             <div class="container">
-                <div class="owl-carousel testimonial-carousel py-5">
+               <!-- <div class="owl-carousel testimonial-carousel py-5">
                     <div class="testimonial-item ">
-                        <!-- <img src="img/team-11.jpg"> -->
-                        <!-- <p>Text</p> -->
+                         <img src="img/team-11.jpg"> 
+                        <p>Text</p> 
                         <div class="d-flex align-items-center">
-                            <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;"> -->
+                            <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
                             <div class="ps-3">
-                                <!-- <h6 class="fw-bold mb-1">VIETNAM MEMORIES</h6> -->
-                                <!-- <small>Samfxt user</small> -->
+                                 <small>Samfxt user</small> 
+                                 <h6 class="fw-bold mb-1">VIETNAM MEMORIES</h6>
                             </div>
-                        </div>
+                        </div>-->
                         <!-- <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i> -->
                     </div>
                     <div class="testimonial-item">
@@ -205,7 +205,7 @@ Europe and African Safari etc.</p>
                     <div class="testimonial-item">
                         <!-- <img src="img/team-13.jpg">
                         <p>Text</p> -->
-                        <div class="d-flex align-items-center">
+                        <div class="d-flex align-items-center">-------------------------
                             <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;"> -->
                             <div class="ps-3">
                                 <!-- <h6 class="fw-bold mb-1">GOA</h6> -->
