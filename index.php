@@ -195,7 +195,7 @@ Europe and African Safari etc.</p>
                         <div class="d-flex align-items-center">
                             <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
                              -->
-                            <!-- <div class="ps-3"> -->
+                            <div class="ps-3">
                                 <!-- <h6 class="fw-bold mb-1">SRI LANKA</h6> -->
                                 <!-- <small>Profession</small> -->
                             </div>
@@ -207,7 +207,7 @@ Europe and African Safari etc.</p>
                         <p>Text</p> -->
                         <div class="d-flex align-items-center">
                             <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;"> -->
-                            <!-- <div class="ps-3"> -->
+                            <div class="ps-3">
                                 <!-- <h6 class="fw-bold mb-1">GOA</h6> -->
                                 <!-- <small>Profession</small> -->
                             </div>
