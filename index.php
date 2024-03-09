@@ -187,7 +187,7 @@ Europe and African Safari etc.</p>
                                 <!-- <small>Samfxt user</small> -->
                             </div>
                         </div>
-                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                        <!-- <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i> -->
                     </div>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                         <!-- <img src="img/team-12.jpg"> -->
@@ -200,7 +200,7 @@ Europe and African Safari etc.</p>
                                 <!-- <small>Profession</small> -->
                             </div>
                         </div>
-                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
+                        <!-- <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i> -->
                     </div>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                         <!-- <img src="img/team-13.jpg">
