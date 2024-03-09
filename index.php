@@ -202,7 +202,7 @@ Europe and African Safari etc.</p>
                         </div>
                         <!-- <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i> -->
                     </div>
-                    <div class="testimonial-item position-relative overflow-hidden">
+                    <div class="testimonial-item overflow-hidden">
                         <!-- <img src="img/team-13.jpg">
                         <p>Text</p> -->
                         <div class="d-flex align-items-center">
