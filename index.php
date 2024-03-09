@@ -178,42 +178,42 @@ Europe and African Safari etc.</p>
             <div class="container">
                 <div class="owl-carousel testimonial-carousel py-5">
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
-                        <!-- <img src="img/team-11.jpg">
+                        <img src="img/team-11.jpg">
                         <p>Text</p>
-                        <div class="d-flex align-items-center"> -->
+                        <div class="d-flex align-items-center">
                             <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;"> -->
-                            <!-- <div class="ps-3">
-                                <h6 class="fw-bold mb-1">VIETNAM MEMORIES</h6> -->
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">VIETNAM MEMORIES</h6>
                                 <!-- <small>Samfxt user</small> -->
-                            <!-- </div>
+                            </div>
                         </div>
                         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                     </div>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                         <img src="img/team-12.jpg">
                         <p>Text</p>
-                        <div class="d-flex align-items-center"> -->
+                        <div class="d-flex align-items-center">
                             <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-2.jpg" style="width: 45px; height: 45px;">
                              -->
-                            <!-- <div class="ps-3">
-                                <h6 class="fw-bold mb-1">SRI LANKA</h6> -->
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">SRI LANKA</h6>
                                 <!-- <small>Profession</small> -->
-                            <!-- </div>
+                            </div>
                         </div>
                         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
                     </div>
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                         <img src="img/team-13.jpg">
                         <p>Text</p>
-                        <div class="d-flex align-items-center"> -->
+                        <div class="d-flex align-items-center">
                             <!-- <img class="img-fluid flex-shrink-0 rounded" src="img/testimonial-3.jpg" style="width: 45px; height: 45px;"> -->
-                            <!-- <div class="ps-3">
-                                <h6 class="fw-bold mb-1">GOA</h6> -->
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">GOA</h6>
                                 <!-- <small>Profession</small> -->
-                            <!-- </div>
+                            </div>
                         </div>
                         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mb-n1"></i>
-                    </div> -->
+                    </div>
 
                     <?php
                         $queryPackage = "select * from packages order by created_at desc";
