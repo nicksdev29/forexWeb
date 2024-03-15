@@ -208,7 +208,7 @@
                             </div>
                             <div class="text-center p-4 mt-3">
                                 <h5 class="fw-bold mb-0">Mr. Supratim Roy</h5>
-                                Director cum Fxchange<br><small>Supratim Roy has more than 28 years of experience in Foreign Exchange. He started his career in Thomas Cook India and later he joined American Experience . He also worked in Hong Kong , Singapore and Australia for 17 years.</small>
+                                Director<br><small>Supratim Roy has more than 28 years of experience in Foreign Exchange. He started his career in Thomas Cook India and later he joined American Experience . He also worked in Hong Kong , Singapore and Australia for 17 years.</small>
                             </div>
                         </div>
                     </div>

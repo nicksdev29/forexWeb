@@ -100,7 +100,7 @@
                             </div>
                              <div class="col-md-2">
                                 <h6 class="section-title text-start text-primary text-uppercase">Whatsapp/sms</h6>
-                                <p><i class="fab fa-whatsapp-square text-primary me-2"></i>+91 </p>
+                                <p><i class="fab fa-whatsapp-square text-primary me-2"></i>+91 7439841376</p>
                             </div>
 
                         </div>
