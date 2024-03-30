@@ -41,7 +41,7 @@
                                                 $count = 0;
                                                 $queryCount = "select count(*) as total from `banners`";
                                                 $resultCount = mysqli_query($con, $queryCount);
-                                                $totalCurency = $resultCount->fetch_assoc();
+                                                $totalBanners = $resultCount->fetch_assoc();
                                                 while( $bannersList = $result->fetch_assoc() ) {
                                                 ?>
                                                 <tr>
@@ -66,17 +66,20 @@
                                             ?>
                                         </tbody>
                                     </table>
-									<?php if($totalCurency['total'] > $pageLimit) { ?>
+									<?php if($totalBanners['total'] > $pageLimit) {
+                                        $totalPage = ceil($totalBanners['total']/$pageLimit); ?>
 									<nav aria-label="...">
 										<ul class="pagination">
-											<li class="page-item <?php echo ($currentPage == 1) ? "disabled" : "" ?>">
+											<li class="page-item <?php echo (($currentPage == 1) || ($currentPage <> $totalPage)) ? "disabled" : "" ?>">
 												<a class="page-link" href="?current_page=<?php echo $currentPage-1 ?>" tabindex="-1" aria-disabled="true">Previous</a>
 											</li>
-											<?php for($pageCount = 1; $pageCount <= ($totalCurency['total']/$pageLimit); $pageCount++) { ?>
-											<li class="page-item <?php echo ($pageCount == $currentPage) ? "active" : "" ?>"><a class="page-link" href="?current_page=<?php echo $pageCount; ?>"><?php echo $pageCount; ?></a></li>
+											<?php for($pageCount = 1; $pageCount <= $totalPage; $pageCount++) { ?>
+											<li class="page-item <?php echo ($pageCount == $currentPage) ? "active" : "" ?>">
+                                                <a class="page-link" href="?current_page=<?php echo $pageCount; ?>"><?php echo $pageCount; ?></a>
+                                            </li>
 											<?php } ?>
-											<li class="page-item <?php echo ($currentPage == ($totalCurency['total']/$pageLimit)) ? "disabled" : "" ?>"">
-											<a class="page-link" href="?current_page=<?php echo $currentPage+1 ?>">Next</a>
+											<li class="page-item <?php echo ($currentPage >= $totalPage) ? "disabled" : "" ?>"">
+											    <a class="page-link" href="?current_page=<?php echo $currentPage+1 ?>">Next</a>
 											</li>
 										</ul>
 									</nav>

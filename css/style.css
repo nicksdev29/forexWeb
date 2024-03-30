@@ -546,12 +546,8 @@ font-size: 8px;
     display: block;
 }
 .buy:hover {
-background-color: #ccc;
-
-width: 100%;
-padding-left: 20%;
-padding-right: 20%;
-color: #000;
+    background-color: #ccc;
+    color: #000;
 }
 .time{
     margin-top:20px;
