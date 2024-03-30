@@ -41,9 +41,10 @@
 												$resultCount = mysqli_query($con, $queryCount);
 												$totalNews = $resultCount->fetch_assoc();
 												while( $newsList = $result->fetch_assoc() ) {
+                                                    ++$count
 												?>
 												<tr>
-													<td><?php echo ++$count; ?></td>
+                                                    <td><?php echo ($offset + $count); ?></td>
 													<td><?php echo $newsList['title']; ?></td>
 													<td>
 														<div class="actions-group">
@@ -61,7 +62,7 @@
                                         $totalPage = ceil($totalNews['total']/$pageLimit); ?>
 									<nav aria-label="...">
 										<ul class="pagination">
-											<li class="page-item <?php echo (($currentPage == 1) || ($currentPage <> $totalPage)) ? "disabled" : "" ?>">
+											<li class="page-item <?php echo (($currentPage <= 1) || ($currentPage > $totalPage)) ? "disabled" : "" ?>">
 												<a class="page-link" href="?current_page=<?php echo $currentPage-1 ?>" tabindex="-1" aria-disabled="true">Previous</a>
 											</li>
 											<?php for($pageCount = 1; $pageCount <= $totalPage; $pageCount++) { ?>

@@ -44,9 +44,10 @@
                                                 $resultCount = mysqli_query($con, $queryCount);
                                                 $totalCurency = $resultCount->fetch_assoc();
                                                 while( $currencyList = $result->fetch_assoc() ) {
+                                                    ++$count
                                                 ?>
                                                 <tr>
-                                                    <td><?php echo ++$count; ?></td>
+                                                    <td><?php echo ($offset + $count); ?></td>
                                                     <td><?php echo $currencyList['currency']; ?></td>
                                                     <td><strong><?php echo $currencyList['symbol']; ?></strong></td>
                                                     <td><input type="text" required class="form-control" id="buy_rate_<?php echo $currencyList['id']; ?>" name="buy_rate_<?php echo $currencyList['id']; ?>" value="<?php echo $currencyList['buy_rate']; ?>" style="width: 98px" /></td>
@@ -74,7 +75,7 @@
                                         $totalPage = ceil($totalCurency['total']/$pageLimit); ?>
 									<nav aria-label="...">
 										<ul class="pagination">
-											<li class="page-item <?php echo (($currentPage == 1) || ($currentPage <> $totalPage)) ? "disabled" : "" ?>">
+											<li class="page-item <?php echo (($currentPage <= 1) || ($currentPage > $totalPage)) ? "disabled" : "" ?>">
 												<a class="page-link" href="?current_page=<?php echo $currentPage-1 ?>" tabindex="-1" aria-disabled="true">Previous</a>
 											</li>
 											<?php for($pageCount = 1; $pageCount <= $totalPage; $pageCount++) { ?>
